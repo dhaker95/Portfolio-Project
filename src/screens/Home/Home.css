@@ -3,7 +3,7 @@
 /* Style for each slide */
 .slide {
     position: relative;
-    height: 800px; /* Adjust the height as needed */
+    height: 1000px; /* Adjust the height as needed */
     overflow: hidden;
   }
   
@@ -28,4 +28,102 @@
     font-size: 50px;
     font-weight: bold;
   }
-  
+  /* Home.css */
+.retirement-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+
+.retirement-section h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.retirement-section p {
+  font-size: 16px;
+  color: #666;
+}
+/* Home.css */
+
+/* Styles for the Services Section */
+.services-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.services-section p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Styles for the Testimonial Section */
+.testimonial-section {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonial-section h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.testimonial {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.testimonial img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.testimonial p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Styles for the Contact Section */
+.contact-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.contact-section p {
+  font-size: 16px;
+  color: #666;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}
+.inner_sections{
+  width: 90%;
+  margin: auto;
+}
