@@ -7,13 +7,13 @@ const Header = () => {
 
             <div className="header">
                 <div className="navbar">
-                    <div className="image">
+                    <a className="image" href='/'>
                         <img src={logo} alt="" />
-                    </div>
+                    </a>
                     <div className="links">
-                        <a href="">Accueil</a>
-                        <a href="">À propos</a>
-                        <a href="">Contact</a>
+                        <a href="/">Accueil</a>
+                        <a href="about">À propos</a>
+                        <a href="contact">Contact</a>
                     </div>
                 </div>
             </div>

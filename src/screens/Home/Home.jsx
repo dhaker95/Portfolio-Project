@@ -7,7 +7,7 @@ import './Home.css';
 import img1 from '../../assets/Home/img1.jpg';
 import img2 from '../../assets/Home/img2.jpg';
 import img3 from '../../assets/Home/img3.jpeg';
-import './Home.css'; // Import your CSS file
+import './Home.css'; 
 import testimonialImage from '../../assets/Home/testimonial.jpg'
 import Footer from '../../components/Footer/Footer';
 
@@ -77,7 +77,6 @@ const Home = () => {
                                 je me sens en sécurité et bien soigné."
                             </p>
                         </div>
-                        {/* Add more testimonials as needed */}
                     </div>
                     <div className="contact-section">
                         <h2>Contactez-Nous</h2>
