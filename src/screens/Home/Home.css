@@ -1,0 +1,31 @@
+/* Add this CSS to your "Home.css" file or your preferred stylesheet */
+
+/* Style for each slide */
+.slide {
+    position: relative;
+    height: 800px; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  /* Style for the slide background */
+  .slide-background {
+    width: 90%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+  
+  /* Style for the slide content */
+  .slide-content {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  

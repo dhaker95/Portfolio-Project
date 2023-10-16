@@ -1,0 +1,36 @@
+.navbar{
+    background-color: rgba(79, 34, 17,0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+
+
+}
+.header{
+    overflow-y: auto;
+    position: sticky;
+    height: 150px;
+    top: 0;
+    z-index: 1;
+
+}
+.navbar img{
+    
+    padding-left: 15%;
+}
+.links a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 1%;
+    color: white;
+}
+.links a:hover{
+    color: aqua;
+    transition: var(--trans,color .4s ease 0s);
+}
+.links{
+    width: 100%;
+    text-align: end;
+    padding-right: 15%;
+}
