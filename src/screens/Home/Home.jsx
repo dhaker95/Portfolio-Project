@@ -15,7 +15,7 @@ const Home = () => {
         infinite: true, // Enable infinite loop
         speed: 800, // Transition speed (ms)
         slidesToShow: 1, // Number of slides to show at a time
-        slidesToScroll: 1, // Number of slides to scroll
+        slidesToScroll: 1, 
         autoplay: true, 
         autoplaySpeed: 3000, // Time between auto-play slides in milliseconds (3 seconds in this case)
     };
