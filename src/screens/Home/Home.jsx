@@ -9,6 +9,7 @@ import img2 from '../../assets/Home/img2.jpg';
 import img3 from '../../assets/Home/img3.jpeg';
 import './Home.css'; // Import your CSS file
 import testimonialImage from '../../assets/Home/testimonial.jpg'
+import Footer from '../../components/Footer/Footer';
 
 const Home = () => {
     // Sample slider settings
@@ -92,6 +93,7 @@ const Home = () => {
                 </div>
 
             </div>
+            <Footer/>
         </>
     );
 }
