@@ -30,15 +30,15 @@ const Home = () => {
     const slides = [
         {
             image: img1,
-            text: 'Découvrez notre maison de retraite.',
+            text: 'Discover our retirement home.',
         },
         {
             image: img2,
-            text: 'Un lieu de vie chaleureux',
+            text: 'A warm and welcoming place to live.',
         },
         {
             image: img3,
-            text: 'Chaque jour est une nouvelle aventure.',
+            text: 'Every day is a new adventure.',
         },
     ];
 
@@ -65,9 +65,9 @@ const Home = () => {
                     <div className="services-section">
                         <div className="services-content">
                             <div className="services-text">
-                                <h2>Nos Services</h2>
+                                <h2>Our Services</h2>
                                 <p>
-                                    À notre maison de retraite, nous offrons une gamme de services pour répondre aux besoins de nos résidents. Ces services comprennent des soins médicaux, des activités de loisirs, des repas de qualité, et bien plus encore. Nous nous engageons à assurer le bien-être de nos résidents.
+                                    At our retirement home, we offer a range of services to meet the needs of our residents. These services include medical care, leisure activities, quality meals, and much more. We are committed to ensuring the well-being of our residents.
                                 </p>
                             </div>
                             <div className="services-image">
@@ -77,45 +77,39 @@ const Home = () => {
                     </div>
 
                     <div className="testimonial-section">
-                        <h2>Témoignages de nos Résidents</h2>
+                        <h2>Testimonials from Our Residents</h2>
                         <div className="testimonial-cards">
                             <div className="testimonial-card">
-                                <img src={testimonialImage} alt="Témoignage" />
+                                <img src={testimonialImage} alt="Testimonial" />
                                 <p>
-                                    "J'ai trouvé une seconde maison ici. Le personnel est incroyablement attentionné, et
-                                    je me sens en sécurité et bien soigné."
+                                    "I've found a second home here. The staff is incredibly caring, and I feel safe and well taken care of."
                                 </p>
                             </div>
                             <div className="testimonial-card">
-                                <img src={testimonialImage2} alt="Témoignage" />
+                                <img src={testimonialImage2} alt="Testimonial" />
                                 <p>
-                                    "Je suis reconnaissante pour l'attention et les soins que j'ai reçus dans cette maison de retraite.
-                                    C'est un endroit spécial."
+                                    "I'm grateful for the attention and care I've received at this retirement home. It's a special place."
                                 </p>
                             </div>
                             <div className="testimonial-card">
-                                <img src={testimonialImage3} alt="Témoignage" />
+                                <img src={testimonialImage3} alt="Testimonial" />
                                 <p>
-                                    "La maison de retraite offre un environnement chaleureux et convivial. J'ai fait de belles rencontres ici."
+                                    "The retirement home offers a warm and friendly environment. I've made wonderful connections here."
                                 </p>
                             </div>
                         </div>
                     </div>
 
-
                     <div className="contact-section">
-                        <h2>Contactez-Nous</h2>
+                        <h2>Contact Us</h2>
                         <p>
-                            Si vous avez des questions ou si vous souhaitez planifier une visite, n'hésitez pas à nous
-                            contacter. Nous sommes là pour vous aider à prendre la meilleure décision pour vous ou vos
-                            proches.
+                            If you have any questions or would like to schedule a visit, please don't hesitate to contact us. We are here to help you make the best decision for yourself or your loved ones.
                         </p>
                         <a href="/contact" className="contact-button">
-                            Contactez-nous
+                            Contact Us
                         </a>
                     </div>
                 </div>
-
             </div>
             <Footer />
         </>

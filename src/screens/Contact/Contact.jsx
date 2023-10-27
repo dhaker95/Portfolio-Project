@@ -9,18 +9,18 @@ const Contact = () => {
         <Header/>
             <div className="contact-container">
             <div className="contact-form">
-                <h2>Contactez-Nous</h2>
+                <h2>Contact us</h2>
                 <form>
-                    <label htmlFor="name">Nom</label>
-                    <input type="text" id="name" name="name" placeholder="Entrez votre nom" required />
+                    <label htmlFor="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required />
 
                     <label htmlFor="email">E-mail</label>
-                    <input type="email" id="email" name="email" placeholder="Entrez votre e-mail" required />
+                    <input type="email" id="email" name="email" placeholder="Enter your e-mail" required />
 
                     <label htmlFor="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Votre message..." required></textarea>
+                    <textarea id="message" name="message" placeholder="Your message..." required></textarea>
 
-                    <button type="submit">Envoyer</button>
+                    <button type="submit">Send</button>
                 </form>
             </div>
         </div>

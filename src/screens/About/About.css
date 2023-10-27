@@ -12,9 +12,8 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-    max-width: 800px;
-    width: 100%;
-    transition: all 0.3s; /* Add transition for smooth animations */
+    width: 70%;
+    transition: all 0.3s; 
 }
 
 .about-content h2 {

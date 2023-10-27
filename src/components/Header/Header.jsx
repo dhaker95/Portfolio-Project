@@ -11,8 +11,8 @@ const Header = () => {
                         <img src={logo} alt="" />
                     </a>
                     <div className="links">
-                        <a href="/">Accueil</a>
-                        <a href="about">À propos</a>
+                        <a href="/">Home</a>
+                        <a href="about">About us</a>
                         <a href="contact">Contact</a>
                     </div>
                 </div>

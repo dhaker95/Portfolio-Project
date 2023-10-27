@@ -7,11 +7,11 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-content">
                 <div className="footer-links">
-                    <a href="/" className="footer-link">Accueil</a>
-                    <a href="/about" className="footer-link">À Propos</a>
+                    <a href="/" className="footer-link">Home</a>
+                    <a href="/about" className="footer-link">About us</a>
                     <a href="/contact" className="footer-link">Contact</a>
                 </div>
-                <p>&copy; 2023 Votre Maison de Retraite</p>
+                <p>&copy; 2023 Your Retirement Home</p>
             </div>
         </footer>
     );

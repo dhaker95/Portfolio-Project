@@ -15,49 +15,42 @@ const About = () => {
         <Header/>
         <div className="about-container">
             <div className="about-content">
-                <h2>À Propos de Nous</h2>
+                <h2>About Us</h2>
                 <p>
-                    Chez La maison de la jouvence, notre principale préoccupation est la satisfaction de nos clients.
-                    Nous nous engageons à offrir un environnement chaleureux et familial, où nos résidents se sentent
-                    comme chez eux. Notre maison de retraite, située à Hammamet en Tunisie, est conçue pour offrir le meilleur
-                    confort et les meilleurs soins à nos résidents.
+                    At La Maison de la Jouvence, our primary concern is customer satisfaction. We are committed to providing a warm and family-like environment where our residents feel at home. Our retirement home, located in Hammamet, Tunisia, is designed to offer the best comfort and care to our residents.
                 </p>
                 <p>
-                    Notre équipe dévouée est composée de professionnels expérimentés dans le domaine des soins aux
-                    personnes âgées. Nous mettons l'accent sur le bien-être physique et émotionnel de nos résidents,
-                    en proposant des activités de loisirs, une alimentation équilibrée, des soins médicaux de qualité,
-                    et bien plus encore.
+                    Our dedicated team consists of professionals with experience in elderly care. We focus on the physical and emotional well-being of our residents, offering leisure activities, balanced meals, quality medical care, and much more.
                 </p>
                 {showMore && (
                     <>
                         <p>
-                            Chez La maison de la jouvence, chaque jour est une nouvelle aventure pour nos résidents. Nous croyons en
-                            la création de souvenirs inoubliables et en la promotion d'une vie active et épanouissante.
+                            At La Maison de la Jouvence, every day is a new adventure for our residents. We believe in creating unforgettable memories and promoting an active and fulfilling life.
                         </p>
                         <div className="sections">
                             <section>
-                                <h3>Emplacement à Hammamet, Tunisie</h3>
+                                <h3>Location in Hammamet, Tunisia</h3>
                                 <p>
-                                    Notre maison de retraite est idéalement située à Hammamet, en Tunisie. Cette charmante ville côtière offre un climat agréable et une atmosphère paisible, parfaite pour nos résidents.
+                                    Our retirement home is ideally located in Hammamet, Tunisia. This charming coastal town offers a pleasant climate and a peaceful atmosphere, perfect for our residents.
                                 </p>
                             </section>
                             <section>
-                                <h3>Nos Objectifs</h3>
+                                <h3>Our Goals</h3>
                                 <p>
-                                    Chez La maison de la jouvence, nous avons pour objectif de créer un environnement familial et chaleureux. Nous visons à offrir des soins de qualité, des activités stimulantes et à assurer le bien-être de nos résidents à chaque étape de leur vie.
+                                    At La Maison de la Jouvence, our goal is to create a family-like and warm environment. We aim to provide quality care, stimulating activities, and ensure the well-being of our residents at every stage of their lives.
                                 </p>
                             </section>
                             <section>
-                                <h3>Prix Abordables</h3>
+                                <h3>Affordable Prices</h3>
                                 <p>
-                                    Nous croyons que tout le monde mérite des soins de qualité. C'est pourquoi nous nous engageons à maintenir des tarifs abordables pour nos résidents. Notre objectif est de rendre nos services accessibles à tous.
+                                    We believe that everyone deserves quality care. That's why we are committed to maintaining affordable rates for our residents. Our goal is to make our services accessible to all.
                                 </p>
                             </section>
                         </div>
                     </>
                 )}
                 <button className="read-more-button" onClick={toggleShowMore}>
-                    {showMore ? 'Lire moins' : 'Lire plus'}
+                    {showMore ? 'Read Less' : 'Read More'}
                 </button>
             </div>
         </div>
