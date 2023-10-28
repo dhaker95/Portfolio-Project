@@ -8,7 +8,6 @@
 
 }
 .header{
-    overflow-y: auto;
     position: sticky;
     height: 150px;
     top: 0;
