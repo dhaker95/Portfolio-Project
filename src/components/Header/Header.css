@@ -15,6 +15,7 @@
 
 .navbar img {
     padding-left: 15%;
+    width: 100%;
 }
 
 .menu {
@@ -58,4 +59,8 @@
     background-color: #1966e1;
     color: #1966e1;
 
+}
+.home h2{
+    font-family: Bradley Hand, cursive;
+    font-size: 30px !important;
 }
