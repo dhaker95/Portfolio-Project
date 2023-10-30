@@ -10,14 +10,14 @@ export default function Footer() {
 
   return (
     <footer className="footer">
-      <div className="container">
+      <div className="container footer-list">
         <div className="row">
           <div className="col-md-3">
             <h3>La Maison de la Jouvence</h3>
             <p>
               123 Main Street
               <br />
-              Your City, Country
+              Hammamet, Tunisia
               <br />
               Email: info@lamaison.com
               <br />
@@ -41,7 +41,14 @@ export default function Footer() {
               </a>
             </div>
           </div>
+          
         </div>
+        <div className="footer-nav menu">
+          <a href="/">Home</a>
+          <a href="/about">About us</a>
+          <a href="/contact">Contact</a>
+
+          </div>
       </div>
     </footer>
   );
