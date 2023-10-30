@@ -211,3 +211,24 @@
   background-color: #eee;
 }
 
+.carousel-container {
+  width: 40%; /* Adjust the width as needed */
+  height: 100vh; /* 100% of the viewport height */
+  float: left; /* Place it on the left side */
+  overflow: hidden; /* Hide the overflow if necessary */
+}
+
+/* Home.css */
+/* ... (your existing styles) ... */
+
+/* Style for the slide background */
+.slide-background {
+  width: 90%;
+  height: 100%;
+  background-size: cover; /* Add this property and value */
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+/* ... (your existing styles) ... */

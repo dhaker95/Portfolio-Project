@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    padding: 10px 2%; /* Reduced the top and bottom padding */
 }
 
 .header {
@@ -21,7 +21,7 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    padding-right: 1%;
+    padding-right: 2%; /* Increased the right padding */
 }
 
 .menu a {
@@ -33,12 +33,14 @@
     border: 1px solid transparent;
     transition: all 0.3s ease;
     border-radius: 5px;
+    transform: translate(0, 0); /* Added this to create a subtle movement on hover */
 }
 
 .menu a:hover {
     color: aqua;
     background-color: rgba(0, 0, 0, 0.2);
     border: 1px solid #00ffff;
+    transform: translate(0, -2px); /* Added this to make the tabs pop or move slightly on hover */
 }
 
 .explore-button {
@@ -54,5 +56,6 @@
 
 .explore-button:hover {
     background-color: #1966e1;
-    color: #c6d13;
+    color: #1966e1;
+
 }
