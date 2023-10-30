@@ -1,5 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/lobster-two');
 
+.home{
+  background-color: blanchedalmond;
+}
+
 /* Style for each slide */
 .slide {
     position: relative;
