@@ -53,8 +53,8 @@ const Home = () => {
                                     className="slide-background"
                                     style={{ backgroundImage: `url(${slide.image})` }}
                                 ></div>
-                                <div className="slide-content">
-                                    <p>{slide.text}</p>
+                                <div className="slide-content ">
+                                    <p className='fade-in'>{slide.text}</p>
                                 </div>
                             </div>
                         ))}

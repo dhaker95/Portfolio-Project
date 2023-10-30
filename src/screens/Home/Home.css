@@ -1,8 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/lobster-two');
 
 /* Style for each slide */
 .slide {
     position: relative;
-    height: 1100px; /* Adjust the height as needed */
+    height: 1100px;
     overflow: hidden;
   }
   
@@ -24,7 +25,7 @@
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
-    font-size: 50px;
+    font-size: 75px;
     font-weight: bold;
   }
   /* Home.css */
@@ -212,23 +213,51 @@
 }
 
 .carousel-container {
-  width: 40%; /* Adjust the width as needed */
-  height: 100vh; /* 100% of the viewport height */
-  float: left; /* Place it on the left side */
-  overflow: hidden; /* Hide the overflow if necessary */
+  width: 40%; 
+  height: 100vh; 
+  float: left; 
+  overflow: hidden; 
 }
-
 /* Home.css */
-/* ... (your existing styles) ... */
+
 
 /* Style for the slide background */
 .slide-background {
   width: 90%;
   height: 100%;
-  background-size: cover; /* Add this property and value */
+  background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
   margin: auto;
 }
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.slide-content p{
+  -webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+          font-family: 'Lobster Two', Helvetica, sans-serif;
 
-/* ... (your existing styles) ... */
+}
