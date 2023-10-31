@@ -1,4 +1,4 @@
-import React, { useState } from "react"; // Import React and useState
+import React, { useState } from "react";
 import "./Housing.css";
 import house1_1 from '../../assets/Housing/house1-1.jpg';
 import house1_2 from '../../assets/Housing/house1-2.jpg';
@@ -22,18 +22,41 @@ const Housing = () => {
     });
   };
 
-  const filteredHouses = houses.filter((house) => {
-    return (
-      (searchCriteria.bedrooms === "" ||
-        house.bedrooms.toString() === searchCriteria.bedrooms) &&
-      (searchCriteria.bathrooms === "" ||
-        house.bathrooms.toString() === searchCriteria.bathrooms)
-    );
-  });
+  // Sample house data
+  const houses = [
+    {
+      id: 1,
+      bedrooms: 3,
+      bathrooms: 2,
+      // ... (other house details)
+    },
+    {
+      id: 2,
+      bedrooms: 4,
+      bathrooms: 3,
+      // ... (other house details)
+    },
+    // Add more house objects as needed
+  ];
+
+  // Function to handle the search
+  const handleSearch = () => {
+    // Filter the houses based on search criteria
+    const filteredHouses = houses.filter((house) => {
+      return (
+        (searchCriteria.bedrooms === "" ||
+          house.bedrooms.toString() === searchCriteria.bedrooms) &&
+        (searchCriteria.bathrooms === "" ||
+          house.bathrooms.toString() === searchCriteria.bathrooms)
+      );
+    });
+
+    // Log the filtered houses to the console for debugging
+    console.log(filteredHouses);
+  };
 
   return (
     <>
-      {/* Add your Header component */}
       <div className="housing">
         <h1>Available Houses</h1>
         <div className="search-bar">
@@ -55,12 +78,19 @@ const Housing = () => {
           <button onClick={handleSearch}>Search</button>
         </div>
         <div className="house-list">
-          {filteredHouses.map((house) => (
-            {/* Display filtered houses */}
+          {houses.map((house) => (
+            <div key={house.id} className="house">
+              <img src={require(`../../assets/Housing/house${house.id}_1.jpg`).default} alt={`House ${house.id}`} />
+              <div className="house-details">
+                <h2>{`House ${house.id}`}</h2>
+                <p>{`Bedrooms: ${house.bedrooms}`}</p>
+                <p>{`Bathrooms: ${house.bathrooms}`}</p>
+                {/* Add more house details as needed */}
+              </div>
+            </div>
           ))}
         </div>
       </div>
-      {/* Add your Footer component */}
     </>
   );
 };

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Housing.css';
 import house1_1 from '../../assets/Housing/house1-1.jpg';
 import house1_2 from '../../assets/Housing/house1-2.jpg';
@@ -37,13 +37,52 @@ const Housing = () => {
         // Add more house objects as needed
     ];
 
+    // Step 2: Create state variables for search criteria
+    const [searchCriteria, setSearchCriteria] = useState({
+        bedrooms: '', // Initialize with an empty string
+        bathrooms: '', // Initialize with an empty string
+    });
+
+    // Step 3: Create a function to handle search input changes
+    const handleSearchInputChange = (e) => {
+        const { name, value } = e.target;
+        setSearchCriteria({
+            ...searchCriteria,
+            [name]: value,
+        });
+    };
+
+    // Step 4: Filter the list of houses based on search criteria
+    const filteredHouses = houses.filter((house) => {
+        return (
+            (searchCriteria.bedrooms === '' || house.bedrooms.toString() === searchCriteria.bedrooms) &&
+            (searchCriteria.bathrooms === '' || house.bathrooms.toString() === searchCriteria.bathrooms)
+        );
+    });
+
     return (
         <>
             <Header />
             <div className="housing">
                 <h1>Available Houses</h1>
+                <div className="search-bar">
+                    <input
+                        type="text"
+                        name="bedrooms"
+                        value={searchCriteria.bedrooms}
+                        onChange={handleSearchInputChange} // Attach the change handler
+                        placeholder="Bedrooms"
+                    />
+                    <input
+                        type="text"
+                        name="bathrooms"
+                        value={searchCriteria.bathrooms}
+                        onChange={handleSearchInputChange} // Attach the change handler
+                        placeholder="Bathrooms"
+                    />
+                </div>
                 <div className="house-list">
-                    {houses.map((house) => (
+                    {filteredHouses.map((house) => (
                         <div key={house.id} className="house">
                             <div className="house-images">
                                 {house.images.map((image, index) => (
