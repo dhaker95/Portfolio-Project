@@ -1,5 +1,11 @@
 import React from 'react';
-import './Housing.css'
+import './Housing.css';
+import house1_1 from '../../assets/Housing/house1-1.jpg';
+import house1_2 from '../../assets/Housing/house1-2.jpg';
+import house1_3 from '../../assets/Housing/house1-3.jpg';
+import house2_1 from '../../assets/Housing/house2-1.jpg';
+import house2_2 from '../../assets/Housing/house2-2.jpg';
+import house2_3 from '../../assets/Housing/house2-3.jpg';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 
@@ -11,9 +17,9 @@ const Housing = () => {
             bedrooms: 3,
             bathrooms: 2,
             images: [
-                'house1-1.jpg',
-                'house1-2.jpg',
-                'house1-3.jpg',
+                house1_1,
+                house1_2,
+                house1_3,
             ],
             features: ['Built-in Closet', 'Garden', 'Garage'],
         },
@@ -22,9 +28,9 @@ const Housing = () => {
             bedrooms: 4,
             bathrooms: 3,
             images: [
-                'house2-1.jpg',
-                'house2-2.jpg',
-                'house2-3.jpg',
+                house2_1,
+                house2_2,
+                house2_3,
             ],
             features: ['Swimming Pool', 'Spacious Living Room', 'Modern Kitchen'],
         },
@@ -43,7 +49,7 @@ const Housing = () => {
                                 {house.images.map((image, index) => (
                                     <img
                                         key={index}
-                                        src={require(`../../assets/Housing/${image}`).default}
+                                        src={image}
                                         alt={`House ${house.id} - Image ${index + 1}`}
                                     />
                                 ))}
