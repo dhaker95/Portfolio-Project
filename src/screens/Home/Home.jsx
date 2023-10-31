@@ -7,9 +7,9 @@ import './Home.css';
 import img1 from '../../assets/Home/img1.jpg';
 import img2 from '../../assets/Home/img2.jpg';
 import img3 from '../../assets/Home/img3.jpeg';
-import testimonialImage from '../../assets/Home/testimonial.jpg';
-import testimonialImage2 from '../../assets/Home/testimonial2.jpg';
-import testimonialImage3 from '../../assets/Home/testimonial3.jpeg';
+import testimonialImage from '../../assets/Home/testimonial.jpg'; // Add this import
+import testimonialImage2 from '../../assets/Home/testimonial2.jpg'; // Add this import
+import testimonialImage3 from '../../assets/Home/testimonial3.jpeg'; // Add this import
 import Footer from '../../components/Footer/Footer';
 import servicesImage from '../../assets/Home/services.jpg';
 
@@ -53,7 +53,7 @@ const Home = () => {
                                     className="slide-background"
                                     style={{ backgroundImage: `url(${slide.image})` }}
                                 ></div>
-                                <div className="slide-content ">
+                                <div className="slide-content">
                                     <p className='fade-in'>{slide.text}</p>
                                 </div>
                             </div>
