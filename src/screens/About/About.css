@@ -1,9 +1,12 @@
 /* About.css */
+@import url('https://fonts.cdnfonts.com/css/lobster-two');
+
 .about-container {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 80vh;
+    
 }
 
 .about-content {
@@ -14,10 +17,15 @@
     text-align: center;
     width: 70%;
     transition: all 0.3s; 
+    position: relative;
+    top: -150px;
 }
+.about-content h3,.about-container h2{
+    font-family: 'Lobster Two', Helvetica, sans-serif;
 
+}
 .about-content h2 {
-    font-size: 24px;
+    font-size: 32px;
     color: #333;
     margin-bottom: 20px;
 }
