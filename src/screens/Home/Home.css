@@ -1,6 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/lobster-two');
 
-.home{
+.home,.about-container,.contact-container{
   background-color: blanchedalmond;
 }
 
