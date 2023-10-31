@@ -43,13 +43,6 @@ export default function Footer() {
           </div>
           
         </div>
-        <div className="footer-nav menu">
-          <a href="/">Home</a>
-          <a href="/about">About us</a>
-          <a href="/contact">Contact</a>
-          <a href="/housing">Housing</a>
-
-          </div>
       </div>
     </footer>
   );
