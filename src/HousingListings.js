@@ -12,6 +12,7 @@ const Housing = () => {
   const [searchCriteria, setSearchCriteria] = useState({
     bedrooms: "",
     bathrooms: "",
+    price: "",
   });
 
   const handleSearchChange = (e) => {
@@ -28,14 +29,23 @@ const Housing = () => {
       id: 1,
       bedrooms: 3,
       bathrooms: 2,
+      Price: R 9000.00
       // ... (other house details)
     },
     {
       id: 2,
-      bedrooms: 4,
-      bathrooms: 3,
+            bedrooms: 4,
+            bathrooms: 3,
+            Price: R 12000.00
       // ... (other house details)
     },
+  {
+    id: 3,
+            bedrooms: 1,
+            bathrooms: 1,
+            Price: R 4000.00
+            // ... (other house details)
+  }
     // Add more house objects as needed
   ];
 
@@ -47,7 +57,9 @@ const Housing = () => {
         (searchCriteria.bedrooms === "" ||
           house.bedrooms.toString() === searchCriteria.bedrooms) &&
         (searchCriteria.bathrooms === "" ||
-          house.bathrooms.toString() === searchCriteria.bathrooms)
+          house.bathrooms.toString() === searchCriteria.bathrooms) &&
+          (searchCriteria.price === "" ||
+          house.price.toString() === searchCriteria.price)
       );
     });
 
@@ -58,7 +70,7 @@ const Housing = () => {
   return (
     <>
       <div className="housing">
-        <h1>Available Houses</h1>
+        <h1>Search Available Houses</h1>
         <div className="search-bar">
           <input
             type="text"
@@ -74,6 +86,13 @@ const Housing = () => {
             onChange={handleSearchChange}
             placeholder="Bathrooms"
           />
+          <input
+            type="text"
+            name="price"
+            value={searchCriteria.price}
+            onChange={handleSearchChange}
+            placeholder="Price"
+          />
           {/* Add more input fields for other search criteria */}
           <button onClick={handleSearch}>Search</button>
         </div>
@@ -85,6 +104,7 @@ const Housing = () => {
                 <h2>{`House ${house.id}`}</h2>
                 <p>{`Bedrooms: ${house.bedrooms}`}</p>
                 <p>{`Bathrooms: ${house.bathrooms}`}</p>
+                <p>{`Price: ${house.price}`}</p>
                 {/* Add more house details as needed */}
               </div>
             </div>

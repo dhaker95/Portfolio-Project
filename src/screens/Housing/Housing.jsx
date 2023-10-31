@@ -16,10 +16,9 @@ const Housing = () => {
             id: 1,
             bedrooms: 3,
             bathrooms: 2,
+            Price: R 9000.00
             images: [
                 house1_1,
-                house1_2,
-                house1_3,
             ],
             features: ['Built-in Closet', 'Garden', 'Garage'],
         },
@@ -27,12 +26,21 @@ const Housing = () => {
             id: 2,
             bedrooms: 4,
             bathrooms: 3,
+            Price: R 12000.00
             images: [
-                house2_1,
-                house2_2,
-                house2_3,
+                house1_2,
             ],
             features: ['Swimming Pool', 'Spacious Living Room', 'Modern Kitchen'],
+        },
+        {
+            id: 3,
+            bedrooms: 1,
+            bathrooms: 1,
+            Price: R 4000.00
+            images: [
+                house1_3,
+            ],
+            features: ['Built-in Closet', 'Garden', 'Garage', 'Swimming Pool'],
         },
         // Add more house objects as needed
     ];
@@ -41,6 +49,7 @@ const Housing = () => {
     const [searchCriteria, setSearchCriteria] = useState({
         bedrooms: '', // Initialize with an empty string
         bathrooms: '', // Initialize with an empty string
+        Price: '', // Initialize with an empty string 
     });
 
     // Step 3: Create a function to handle search input changes
@@ -56,7 +65,8 @@ const Housing = () => {
     const filteredHouses = houses.filter((house) => {
         return (
             (searchCriteria.bedrooms === '' || house.bedrooms.toString() === searchCriteria.bedrooms) &&
-            (searchCriteria.bathrooms === '' || house.bathrooms.toString() === searchCriteria.bathrooms)
+            (searchCriteria.bathrooms === '' || house.bathrooms.toString() === searchCriteria.bathrooms) &&
+            (searchCriteria.Price === '' || house.price.toString() === searchCriteria.price)
         );
     });
 
@@ -64,7 +74,7 @@ const Housing = () => {
         <>
             <Header />
             <div className="housing">
-                <h1>Available Houses</h1>
+                <h1>Search Available Houses</h1>
                 <div className="search-bar">
                     <input
                         type="text"
@@ -79,6 +89,13 @@ const Housing = () => {
                         value={searchCriteria.bathrooms}
                         onChange={handleSearchInputChange} // Attach the change handler
                         placeholder="Bathrooms"
+                    />
+                    <input
+                        type="text"
+                        name="price"
+                        value={searchCriteria.price}
+                        onChange={handleSearchInputChange} // Attach the change handler
+                        placeholder="Price"
                     />
                 </div>
                 <div className="house-list">
@@ -97,6 +114,7 @@ const Housing = () => {
                                 <h2>House {house.id}</h2>
                                 <p>Bedrooms: {house.bedrooms}</p>
                                 <p>Bathrooms: {house.bathrooms}</p>
+                                <p>Price: {house.price}</p>
                                 <ul>
                                     {house.features.map((feature, index) => (
                                         <li key={index}>{feature}</li>
