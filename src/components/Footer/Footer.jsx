@@ -47,6 +47,7 @@ export default function Footer() {
           <a href="/">Home</a>
           <a href="/about">About us</a>
           <a href="/contact">Contact</a>
+          <a href="/housing">Housing</a>
 
           </div>
       </div>
