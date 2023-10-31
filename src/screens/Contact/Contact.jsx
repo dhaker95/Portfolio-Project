@@ -1,46 +1,12 @@
-import React, { useEffect } from 'react';
-import emailjs from 'emailjs-com'; // Import the emailjs library
-import './Contact.css';
+import React from 'react';
+import './Contact.css'
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
-import img from '../../assets/Contact/img.jpg'
 
 const Contact = () => {
-    // Set up Google Maps when the component mounts
-    useEffect(() => {
-        const googleMap = new window.google.maps.Map(document.getElementById("google-map"), {
-            center: { lat: -34.397, lng: 150.644 }, // Set initial map coordinates
-            zoom: 8, // Set the initial zoom level
-        });
-    }, []);
-
-    // Define your array of sales agents
-    const agents = [
-        {
-            name: "Agent 1",
-            country: "Country 1",
-            phone: "+1234567890",
-            email: "agent1@example.com",
-        },
-        // Add more agents...
-    ];
-
-    // Function to handle sending emails
-    const handleEmail = (agentEmail) => {
-        emailjs.send("your_email_service_id", "your_template_id", {
-            to_email: agentEmail,
-        })
-        .then((response) => {
-            console.log("Email sent!", response);
-        })
-        .catch((error) => {
-            console.error("Email could not be sent:", error);
-        });
-    };
-
     return (
         <>
-            <Header />
+        <Header/>
             <div className="contact-container">
             <div className="contact-form">
                 <h2>Contact us</h2>

@@ -7,9 +7,9 @@ import './Home.css';
 import img1 from '../../assets/Home/img1.jpg';
 import img2 from '../../assets/Home/img2.jpg';
 import img3 from '../../assets/Home/img3.jpeg';
-import testimonialImage from '../../assets/Home/testimonial.jpg'; // Add this import
-import testimonialImage2 from '../../assets/Home/testimonial2.jpg'; // Add this import
-import testimonialImage3 from '../../assets/Home/testimonial3.jpeg'; // Add this import
+import testimonialImage from '../../assets/Home/testimonial.jpg';
+import testimonialImage2 from '../../assets/Home/testimonial2.jpg';
+import testimonialImage3 from '../../assets/Home/testimonial3.jpeg';
 import Footer from '../../components/Footer/Footer';
 import servicesImage from '../../assets/Home/services.jpg';
 
@@ -45,16 +45,17 @@ const Home = () => {
         <>
             <Header />
             <div className="home">
-                <div className="slider">
+                <div className="slider-container">
                     <Slider {...sliderSettings}>
                         {slides.map((slide, index) => (
                             <div key={index} className="slide">
-                                <div
-                                    className="slide-background"
-                                    style={{ backgroundImage: `url(${slide.image})` }}
-                                ></div>
+                                <img
+                                    className="slide-image"
+                                    src={slide.image}
+                                    alt=""
+                                />
                                 <div className="slide-content">
-                                    <p className='fade-in'>{slide.text}</p>
+                                    <p className="slide-text">{slide.text}</p>
                                 </div>
                             </div>
                         ))}
