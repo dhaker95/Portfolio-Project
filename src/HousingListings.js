@@ -6,12 +6,12 @@ import house1_3 from '../../assets/Housing/house1-3.jpg';
 import house2_1 from '../../assets/Housing/house2-1.jpg';
 import house2_2 from '../../assets/Housing/house2-2.jpg';
 import house2_3 from '../../assets/Housing/house2-3.jpg';
-// ... (import other images and components)
 
 const Housing = () => {
   const [searchCriteria, setSearchCriteria] = useState({
     bedrooms: "",
     bathrooms: "",
+    price: "",
   });
 
   const handleSearchChange = (e) => {
@@ -28,14 +28,20 @@ const Housing = () => {
       id: 1,
       bedrooms: 3,
       bathrooms: 2,
-      // ... (other house details)
+      Price: "R 9000.00", // Enclose in quotes
     },
     {
       id: 2,
       bedrooms: 4,
       bathrooms: 3,
-      // ... (other house details)
+      Price: "R 12000.00", // Enclose in quotes
     },
+    {
+      id: 3,
+      bedrooms: 1,
+      bathrooms: 1,
+      Price: "R 4000.00", // Enclose in quotes
+    }
     // Add more house objects as needed
   ];
 
@@ -47,7 +53,9 @@ const Housing = () => {
         (searchCriteria.bedrooms === "" ||
           house.bedrooms.toString() === searchCriteria.bedrooms) &&
         (searchCriteria.bathrooms === "" ||
-          house.bathrooms.toString() === searchCriteria.bathrooms)
+          house.bathrooms.toString() === searchCriteria.bathrooms) &&
+        (searchCriteria.price === "" ||
+          house.Price.toString() === searchCriteria.price) // Use "Price" here
       );
     });
 
@@ -58,7 +66,7 @@ const Housing = () => {
   return (
     <>
       <div className="housing">
-        <h1>Available Houses</h1>
+        <h1>Search Available Houses</h1>
         <div className="search-bar">
           <input
             type="text"
@@ -74,7 +82,13 @@ const Housing = () => {
             onChange={handleSearchChange}
             placeholder="Bathrooms"
           />
-          {/* Add more input fields for other search criteria */}
+          <input
+            type="text"
+            name="price"
+            value={searchCriteria.price}
+            onChange={handleSearchChange}
+            placeholder="Price"
+          />
           <button onClick={handleSearch}>Search</button>
         </div>
         <div className="house-list">
@@ -85,6 +99,8 @@ const Housing = () => {
                 <h2>{`House ${house.id}`}</h2>
                 <p>{`Bedrooms: ${house.bedrooms}`}</p>
                 <p>{`Bathrooms: ${house.bathrooms}`}</p>
+                <p>{`Price: ${house.Price}`}</p> {/* Use "Price" here */
+                }
                 {/* Add more house details as needed */}
               </div>
             </div>
