@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import Housing from './screens/Housing/Housing';
-import './Housing.css';
+import React, { useState } from "react"; // Import React and useState
+import "./Housing.css";
 import house1_1 from '../../assets/Housing/house1-1.jpg';
 import house1_2 from '../../assets/Housing/house1-2.jpg';
 import house1_3 from '../../assets/Housing/house1-3.jpg';
