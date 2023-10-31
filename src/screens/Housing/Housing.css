@@ -1,0 +1,62 @@
+.housing {
+    text-align: center;
+    padding: 20px;
+}
+
+.housing h1 {
+    font-size: 28px;
+}
+
+.house-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.house {
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+.house:hover {
+    background-color: #f5f5f5;
+}
+
+.house-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.house-details {
+    text-align: left;
+}
+
+.house-details h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.house-details p {
+    font-size: 16px;
+    color: #666;
+}
+
+.house-details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.house-details ul li {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Add more styling as needed */
