@@ -29,6 +29,10 @@
     height: 300px;
     
 }
+.contact-container:hover .contact_content {
+    background-color: #f7f7f7;
+    transform: scale(1.05);
+}
 .contact_content{
     display: flex;
     justify-content:center;
