@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Housing from './screens/Housing/Housing';
 import './Housing.css';
 import house1_1 from '../../assets/Housing/house1-1.jpg';
 import house1_2 from '../../assets/Housing/house1-2.jpg';
