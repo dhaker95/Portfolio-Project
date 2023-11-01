@@ -7,23 +7,22 @@ import './Home.css';
 import img1 from '../../assets/Home/img1.jpg';
 import img2 from '../../assets/Home/img2.jpg';
 import img3 from '../../assets/Home/img3.jpeg';
-import './Home.css';
-import testimonialImage from '../../assets/Home/testimonial.jpg'
-import testimonialImage2 from '../../assets/Home/testimonial2.jpg'
-import testimonialImage3 from '../../assets/Home/testimonial3.jpeg'
+import testimonialImage from '../../assets/Home/testimonial.jpg';
+import testimonialImage2 from '../../assets/Home/testimonial2.jpg';
+import testimonialImage3 from '../../assets/Home/testimonial3.jpeg';
 import Footer from '../../components/Footer/Footer';
-import servicesImage from '../../assets/Home/services.jpg'
+import servicesImage from '../../assets/Home/services.jpg';
 
 const Home = () => {
     // Sample slider settings
     const sliderSettings = {
-        dots: true, 
-        infinite: true, 
-        speed: 800, 
+        dots: true,
+        infinite: true,
+        speed: 800,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000, 
+        autoplaySpeed: 3000,
     };
 
     // Sample slide data
@@ -54,8 +53,8 @@ const Home = () => {
                                     className="slide-background"
                                     style={{ backgroundImage: `url(${slide.image})` }}
                                 ></div>
-                                <div className="slide-content">
-                                    <p>{slide.text}</p>
+                                <div className="slide-content ">
+                                    <p className='fade-in'>{slide.text}</p>
                                 </div>
                             </div>
                         ))}

@@ -1,0 +1,409 @@
+[33mcommit b94e422ad669acb0c3795dfd83134eb88d19a966[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 9ea0581 50bf127
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Wed Nov 1 00:53:22 2023 +0200
+
+    Merge pull request #1 from dhaker95/testing
+    
+    House Filters
+
+[33mcommit 50bf127816619aa1f7baf99f7ad3ea40056f69e5[m
+Author: Hilya02 <ntindahilya@gmail.com>
+Date:   Wed Nov 1 00:49:30 2023 +0200
+
+    House Filters
+
+[33mcommit 9ea05819f8492de39fd26df32a87ba2a273c0892[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Wed Nov 1 00:18:03 2023 +0200
+
+    Delete src/handleSearchChange.js
+
+[33mcommit dde9e08cfa4d18e4842570012f15da10b4f0b174[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Wed Nov 1 00:17:05 2023 +0200
+
+    Delete src/searchCriteria.js
+
+[33mcommit 1ab1ba9293dd4c54a4cafa8050c482239feab1d1[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Wed Nov 1 00:16:43 2023 +0200
+
+    Delete src/filteredHouses.js
+
+[33mcommit 5de1961bafd57ce85cbbf72edfb2f36d1f009c41[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Wed Nov 1 00:11:18 2023 +0200
+
+    Update HousingListings.js
+
+[33mcommit c66e925217b646dae9916dcfe937382305b4a9c9[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Wed Nov 1 00:07:57 2023 +0200
+
+    Update HousingListings.js
+
+[33mcommit de8d775515e7c45a1c325fa2db0873e5918acf34[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Wed Nov 1 00:00:30 2023 +0200
+
+    Create HousingListings.js
+
+[33mcommit f6241eb8ebdf22e005e1cb6eded152431dc7146c[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Tue Oct 31 23:58:24 2023 +0200
+
+    Create filteredHouses.js
+
+[33mcommit ac40156b1fa3974ee90a926d8a932f222385a7d1[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Tue Oct 31 23:57:22 2023 +0200
+
+    Create handleSearchChange.js
+
+[33mcommit eae9a1c10f81e22fdcaa95c457aea1dfff5afe0b[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Tue Oct 31 23:56:36 2023 +0200
+
+    Create searchCriteria.js
+
+[33mcommit 6d9dfc246452e078bac2a82019fab0deba1cd3ee[m
+Author: Hilya02 <ntindahilya@gmail.com>
+Date:   Tue Oct 31 23:43:18 2023 +0200
+
+    Houses Images
+
+[33mcommit 708fea10fce2762b008f65142e343dc8fc52b92f[m
+Author: Hilya02 <ntindahilya@gmail.com>
+Date:   Tue Oct 31 23:28:21 2023 +0200
+
+    New Houses
+
+[33mcommit 9913ee96e82d7a727759737bf6e4011917d1d3a3[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Tue Oct 31 23:22:47 2023 +0200
+
+    Add files via upload
+
+[33mcommit d57801de3e1c572a1c4846dd258f247ede4a52ff[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Tue Oct 31 23:07:19 2023 +0200
+
+    Delete src/assets/Housing/README.md
+
+[33mcommit 81b3392de52cb04d225d5cf3f3d46f1648284903[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Tue Oct 31 23:06:41 2023 +0200
+
+    Add files via upload
+
+[33mcommit fbec8601fa137ff707a5405c11032fc94911524d[m
+Merge: 9c5ec3b 0ba6ed5
+Author: root <ntindahilya@gmail.com>
+Date:   Tue Oct 31 21:05:15 2023 +0000
+
+    Merge branch 'master' of https://github.com/dhaker95/Portfolio-Project
+
+[33mcommit 9c5ec3bc83c96c81c54bd721b2a69224c957f186[m
+Author: root <ntindahilya@gmail.com>
+Date:   Tue Oct 31 21:04:39 2023 +0000
+
+    Housing Images
+
+[33mcommit 0ba6ed5d56dcf1beec18fb40673f3979c09b05e0[m
+Author: Hilya02 <ntindahilya@gmail.com>
+Date:   Tue Oct 31 22:41:27 2023 +0200
+
+    updated home page
+
+[33mcommit 27a528692ab5283ac86557394fff409c425909be[m
+Author: Hilya02 <ntindahilya@gmail.com>
+Date:   Tue Oct 31 22:16:53 2023 +0200
+
+    Sliders
+
+[33mcommit 790b646275d47de51b248e14f2b6fb65756bc5bf[m
+Author: Hilya02 <ntindahilya@gmail.com>
+Date:   Tue Oct 31 22:05:51 2023 +0200
+
+    New home Slider
+
+[33mcommit df1ebd76a00d389f41da6d9c0f9bc10e0181919f[m
+Merge: 4ac6922 469d7cb
+Author: Hilya02 <ntindahilya@gmail.com>
+Date:   Tue Oct 31 21:44:49 2023 +0200
+
+    Merge branch 'master' of https://github.com/dhaker95/Portfolio-Project
+
+[33mcommit 469d7cbb681ceb2fbcc2ade84e606ccc4e00c300[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Tue Oct 31 19:57:39 2023 +0100
+
+    Contact Hover
+
+[33mcommit 4683a091f256508bafb125ca53ba0693f247f9c8[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Tue Oct 31 19:48:34 2023 +0100
+
+    Contact Align
+
+[33mcommit 94024ad942ecda70ca3665ac5a1ec97669637f04[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Tue Oct 31 19:44:27 2023 +0100
+
+    Contact Image
+
+[33mcommit 04e9bcbfc33844bc9b3c581adf645e529c4fb4b4[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Tue Oct 31 19:07:30 2023 +0100
+
+    About Headers
+
+[33mcommit fde2b8f93b3a87f3e276a39b191b95e4976395f7[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Tue Oct 31 18:38:33 2023 +0100
+
+    Create Housing Page
+
+[33mcommit 4ac6922cb527588819ed77a6acefedd33d88c5f5[m
+Merge: ce9db63 cdbc8b9
+Author: Hilya02 <ntindahilya@gmail.com>
+Date:   Mon Oct 30 22:05:31 2023 +0200
+
+    Merge branch 'master' of https://github.com/dhaker95/Portfolio-Project
+
+[33mcommit ce9db631a21490067fadb1a4755130dead6c4b00[m
+Author: Hilya02 <ntindahilya@gmail.com>
+Date:   Mon Oct 30 22:05:14 2023 +0200
+
+    Update all new changes
+
+[33mcommit cdbc8b9faf936e5c7055011c57ca594bb37ddda0[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Mon Oct 30 18:41:01 2023 +0100
+
+    Background Color
+
+[33mcommit aabf139be4d8100a7dfc68c3786cca4c93184cfb[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Mon Oct 30 18:23:44 2023 +0100
+
+    Slider Update
+
+[33mcommit e8b9f0837e5091c7a836e4e286eb803ba556e8c8[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Mon Oct 30 17:30:49 2023 +0100
+
+    Footer links
+
+[33mcommit 27b0b52e94e4ec99004b046269fad1e6f386429b[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Mon Oct 30 17:09:58 2023 +0100
+
+    Home Headers
+
+[33mcommit 903a3a4367be85f5f61a3abf4ba9a8a79462b6a4[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Mon Oct 30 17:01:12 2023 +0100
+
+    logo fix
+
+[33mcommit d568b32c3fbe4c449297ba99a135f55f456eec34[m
+Author: Hilya02 <ntindahilya@gmail.com>
+Date:   Mon Oct 30 12:27:20 2023 +0200
+
+    Update
+
+[33mcommit d8ef222b1c5fa2d40a0d83ba155a0277161ef885[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Mon Oct 30 11:59:51 2023 +0200
+
+    Add files via upload
+
+[33mcommit be2d2dfd9693b333367c17fa2d20be85f8961e5a[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Mon Oct 30 11:59:29 2023 +0200
+
+    Delete src/assets/Home/img3.jpg
+
+[33mcommit 769ea778bd5a071060d182e2d148c0e144c3a05e[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Mon Oct 30 11:54:23 2023 +0200
+
+    Add files via upload
+
+[33mcommit 440b61e890d49f42a59035c1625f47044294eaa3[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Mon Oct 30 11:53:26 2023 +0200
+
+    Delete src/assets/Home/img3.jpeg
+
+[33mcommit 7aadf633ca532d9befe4b025d373e6d39e97f449[m
+Author: Hilya02 <ntindahilya@gmail.com>
+Date:   Mon Oct 30 11:46:50 2023 +0200
+
+    Header
+
+[33mcommit 8696477d5e172f9921eb7ac11e2ef368d87c73d8[m
+Author: Hilya02 <ntindahilya@gmail.com>
+Date:   Mon Oct 30 11:12:35 2023 +0200
+
+    Updtaed Footer
+
+[33mcommit 828e61ab0bd48bad15a1d1ef7ae84eca3fc63269[m
+Author: Hilya02 <ntindahilya@gmail.com>
+Date:   Mon Oct 30 11:04:19 2023 +0200
+
+    Footer
+
+[33mcommit 8e734ca4de1ffd3ef1c0503530ab2cb2e8227c21[m
+Merge: a0ac9e8 0941953
+Author: Hilya02 <ntindahilya@gmail.com>
+Date:   Mon Oct 30 10:46:13 2023 +0200
+
+    Merge branch 'master' of https://github.com/dhaker95/Portfolio-Project
+
+[33mcommit a0ac9e84e9c54e81359ca18e79466927003ea956[m
+Author: Hilya02 <ntindahilya@gmail.com>
+Date:   Mon Oct 30 10:46:02 2023 +0200
+
+    update all
+
+[33mcommit 0941953f534f8149c0be06de090a9b8e95dc3885[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Mon Oct 30 10:43:31 2023 +0200
+
+    Update Footer.jsx
+
+[33mcommit 52c1eaabf77d4c2af4732523406de1c1a73532fe[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Mon Oct 30 10:08:40 2023 +0200
+
+    Delete src/assets/Footer/README.md
+
+[33mcommit c39bfa401754d61eabf9a46fd4bcb643a1f65a84[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Mon Oct 30 10:07:55 2023 +0200
+
+    Add files via upload
+
+[33mcommit 54b5e7096df266774f876f4e0230385c1f8e3e10[m
+Merge: f73d060 e15cea4
+Author: root <ntindahilya@gmail.com>
+Date:   Mon Oct 30 08:06:10 2023 +0000
+
+    Merge branch 'master' of https://github.com/dhaker95/Portfolio-Project
+
+[33mcommit f73d060d22ddfa074a5651eb783405ed49fc5df8[m
+Author: root <ntindahilya@gmail.com>
+Date:   Mon Oct 30 08:04:00 2023 +0000
+
+    Footer Images
+
+[33mcommit e15cea463692ca3d5b0a9a9f8c1aa66846c772c7[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Sun Oct 29 22:21:09 2023 +0200
+
+    Add files via upload
+
+[33mcommit 3496646e4e41916ae10e33b9ae70a0950dee8f27[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Sun Oct 29 22:17:52 2023 +0200
+
+    Delete src/components/Footer/5296765_camera_instagram_instagram logo_icon.png
+
+[33mcommit 5d507d541f5c854551a001f9defc0a2b2573fedd[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Sun Oct 29 22:17:40 2023 +0200
+
+    Delete src/components/Footer/5296515_bird_tweet_twitter_twitter logo_icon.png
+
+[33mcommit 6e64aeba56e8e35bf83b18ecb04615f3deff8e8d[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Sun Oct 29 22:17:27 2023 +0200
+
+    Delete src/components/Footer/5296501_linkedin_network_linkedin logo_icon.png
+
+[33mcommit bf1a9201acdbb5204e8e530647b4f03028485875[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Sun Oct 29 22:17:13 2023 +0200
+
+    Delete src/components/Footer/5296499_fb_facebook_facebook logo_icon.png
+
+[33mcommit 402ae9a3d923daa6e070c0ee80c4c6ca37fd371b[m
+Author: Hilya Ntinda Tuyakula <113698301+Hilya02@users.noreply.github.com>
+Date:   Sun Oct 29 22:06:08 2023 +0200
+
+    Add files via upload
+
+[33mcommit a907d71e00df47c643e97d4600441f33fea21f69[m
+Author: root <ntindahilya@gmail.com>
+Date:   Sun Oct 29 14:00:07 2023 +0000
+
+    README.md
+
+[33mcommit 947bc34a722fcd28211cf4353c14eb9274c9792e[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Sat Oct 28 22:38:01 2023 +0100
+
+    Updates
+
+[33mcommit a4643990356b24c1b02d17e8e66fe71bb111beb0[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Fri Oct 27 11:46:43 2023 +0100
+
+    Translation
+
+[33mcommit 96eddf873e6cecd37f622bc58f251358d8f9cebe[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Mon Oct 16 19:06:25 2023 +0100
+
+    Testimonials and services
+
+[33mcommit ad48efd1cf670a344719c147a62f8705ab32ebef[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Mon Oct 16 18:43:45 2023 +0100
+
+    Links
+
+[33mcommit af323a9a80df82881056501c1c2613dbef5155b5[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Mon Oct 16 18:23:54 2023 +0100
+
+    Contact and About
+
+[33mcommit 60710aac30a81d3d88f06bcd3c782f3d43065a11[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Mon Oct 16 17:20:56 2023 +0100
+
+    Footer
+
+[33mcommit b58bf5983b0fc30d5718973a28f9ea348cde2982[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Mon Oct 16 17:12:19 2023 +0100
+
+    Content
+
+[33mcommit aeef6bb56a519d8935205fe32a61533640911d23[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Mon Oct 16 16:55:41 2023 +0100
+
+    Update
+
+[33mcommit f8208dba23af2d3d3208a6337a84a0450a8f6473[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Mon Oct 16 16:48:15 2023 +0100
+
+    update
+
+[33mcommit 3f180a821b6f8a00c5633b5044bf1b7f3a637c00[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Mon Oct 16 16:37:14 2023 +0100
+
+    First Commit
+
+[33mcommit f25178ff5f72fb3e527c512fabaa7287ace521fb[m
+Author: Dhaker Achour <achour.dhaker@gmail.com>
+Date:   Wed Oct 4 18:12:21 2023 +0100
+
+    Initialize project using Create React App
