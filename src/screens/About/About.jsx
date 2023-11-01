@@ -7,6 +7,11 @@ import Footer from '../../components/Footer/Footer';
 
 const About = () => {
     const [isCounting, setIsCounting] = useState(false);
+    const [isSectionsVisible, setIsSectionsVisible] = useState(false);
+
+    const toggleSections = () => {
+        setIsSectionsVisible(!isSectionsVisible);
+    };
     return (
         <>
             <Header />
@@ -54,8 +59,10 @@ const About = () => {
                             </div>
                         </div>
                     </section>
-                
-
+                    <button onClick={toggleSections}>
+                        {isSectionsVisible ? 'Read Less' : 'Read More'}
+                    </button>
+                    {isSectionsVisible && (
                     <div className="sections">
                         <section>
                             <h3>Location in Hammamet, Tunisia</h3>
@@ -77,7 +84,7 @@ const About = () => {
                         </section>
 
                        
-                    </div>
+                    </div>)}
                 </div>
             </div>
             <Footer />
