@@ -1,42 +1,54 @@
 @import url('https://fonts.cdnfonts.com/css/lobster-two');
 
-/* Common styles for home, about, and contact sections */
-.home, .about-container, .contact-container {
+.home,.about-container,.contact-container{
   background-color: blanchedalmond;
 }
 
 /* Style for each slide */
 .slide {
-  position: relative;
-  height: 500px; /* Set a maximum height for the slider */
-  overflow: hidden;
-}
-
-/* Style for the slide background */
-.slide-background {
-  width: 90%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: auto;
-}
-
-/* Style for the slide content */
-.slide-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: relative;
+    height: 1100px;
+    overflow: hidden;
+  }
+  
+  /* Style for the slide background */
+  .slide-background {
+    width: 90%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+  
+  /* Style for the slide content */
+  .slide-content {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 75px;
+    font-weight: bold;
+  }
+  /* Home.css */
+.retirement-section {
+  background-color: #f9f9f9;
+  padding: 20px;
   text-align: center;
-  color: #fff;
-  font-size: 75px;
-  font-weight: bold;
-  animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
-  font-family: 'Lobster Two', Helvetica, sans-serif;
 }
 
+.retirement-section h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.retirement-section p {
+  font-size: 16px;
+  color: #666;
+}
+/* Home.css */
 
 /* Styles for the Services Section */
 .services-section {
@@ -211,3 +223,45 @@
   overflow: hidden; 
 }
 /* Home.css */
+
+
+/* Style for the slide background */
+.slide-background {
+  width: 90%;
+  height: 100%;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.slide-content p{
+  -webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+          font-family: 'Lobster Two', Helvetica, sans-serif;
+
+}

@@ -45,17 +45,16 @@ const Home = () => {
         <>
             <Header />
             <div className="home">
-                <div className="slider-container">
+                <div className="slider">
                     <Slider {...sliderSettings}>
                         {slides.map((slide, index) => (
                             <div key={index} className="slide">
-                                <img
-                                    className="slide-image"
-                                    src={slide.image}
-                                    alt=""
-                                />
-                                <div className="slide-content">
-                                    <p className="slide-text">{slide.text}</p>
+                                <div
+                                    className="slide-background"
+                                    style={{ backgroundImage: `url(${slide.image})` }}
+                                ></div>
+                                <div className="slide-content ">
+                                    <p className='fade-in'>{slide.text}</p>
                                 </div>
                             </div>
                         ))}
