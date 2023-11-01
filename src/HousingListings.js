@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import "./Housing.css";
+import React, { useState } from 'react';
+import './Housing.css';
 import house1_1 from '../../assets/Housing/house1-1.jpg';
 import house1_2 from '../../assets/Housing/house1-2.jpg';
 import house1_3 from '../../assets/Housing/house1-3.jpg';
@@ -9,9 +9,9 @@ import house2_3 from '../../assets/Housing/house2-3.jpg';
 
 const Housing = () => {
   const [searchCriteria, setSearchCriteria] = useState({
-    bedrooms: "",
-    bathrooms: "",
-    price: "",
+    bedrooms: '',
+    bathrooms: '',
+    Price: '',
   });
 
   const handleSearchChange = (e) => {
@@ -22,44 +22,61 @@ const Housing = () => {
     });
   };
 
-  // Sample house data
+  // Sample house data with agent information
   const houses = [
     {
       id: 1,
       bedrooms: 3,
       bathrooms: 2,
-      Price: "R 9000.00", // Enclose in quotes
+      Price: "R 9000.00",
+      images: [house1_1],
+      features: ['Built-in Closet', 'Garden', 'Garage'],
+      agent: {
+        name: 'Hilya Ntinda',
+        email: 'ntindahilya@gmail.com',
+        country: 'Namibia',
+      },
     },
     {
       id: 2,
       bedrooms: 4,
       bathrooms: 3,
-      Price: "R 12000.00", // Enclose in quotes
+      Price: "R 12000.00",
+      images: [house1_2],
+      features: ['Swimming Pool', 'Spacious Living Room', 'Modern Kitchen'],
+      agent: {
+        name: 'Hilya Ntinda',
+        email: 'ntindahilya@gmail.com',
+        country: 'Namibia',
+      },
     },
     {
       id: 3,
       bedrooms: 1,
       bathrooms: 1,
-      Price: "R 4000.00", // Enclose in quotes
-    }
-    // Add more house objects as needed
+      Price: "R 4000.00",
+      images: [house1_3],
+      features: ['Built-in Closet', 'Garden', 'Garage', 'Swimming Pool'],
+      agent: {
+        name: 'Hilya Ntinda',
+        email: 'ntindahilya@gmail.com',
+        country: 'Namibia',
+      },
+    },
   ];
 
-  // Function to handle the search
   const handleSearch = () => {
-    // Filter the houses based on search criteria
     const filteredHouses = houses.filter((house) => {
       return (
-        (searchCriteria.bedrooms === "" ||
+        (searchCriteria.bedrooms === '' ||
           house.bedrooms.toString() === searchCriteria.bedrooms) &&
-        (searchCriteria.bathrooms === "" ||
+        (searchCriteria.bathrooms === '' ||
           house.bathrooms.toString() === searchCriteria.bathrooms) &&
-        (searchCriteria.price === "" ||
-          house.Price.toString() === searchCriteria.price) // Use "Price" here
+        (searchCriteria.Price === '' ||
+          house.Price.toString() === searchCriteria.Price)
       );
     });
 
-    // Log the filtered houses to the console for debugging
     console.log(filteredHouses);
   };
 
@@ -84,8 +101,8 @@ const Housing = () => {
           />
           <input
             type="text"
-            name="price"
-            value={searchCriteria.price}
+            name="Price"
+            value={searchCriteria.Price}
             onChange={handleSearchChange}
             placeholder="Price"
           />
@@ -94,14 +111,29 @@ const Housing = () => {
         <div className="house-list">
           {houses.map((house) => (
             <div key={house.id} className="house">
-              <img src={require(`../../assets/Housing/house${house.id}_1.jpg`).default} alt={`House ${house.id}`} />
+              <div className="house-images">
+                {house.images.map((image, index) => (
+                  <img
+                    key={index}
+                    src={image}
+                    alt={`House ${house.id} - Image ${index + 1}`}
+                  />
+                ))}
+              </div>
               <div className="house-details">
-                <h2>{`House ${house.id}`}</h2>
-                <p>{`Bedrooms: ${house.bedrooms}`}</p>
-                <p>{`Bathrooms: ${house.bathrooms}`}</p>
-                <p>{`Price: ${house.Price}`}</p> {/* Use "Price" here */
-                }
-                {/* Add more house details as needed */}
+                <h2>House {house.id}</h2>
+                <p>Bedrooms: {house.bedrooms}</p>
+                <p>Bathrooms: {house.bathrooms}</p>
+                <p>Price: {house.Price}</p>
+                <p>Agent: {house.agent.name}</p>
+                <p>Email: {house.agent.email}</p>
+                <p>Country: {house.agent.country}</p>
+                <button onClick={() => handleTalkToAgent(house.agent)}>Talk to Agent Now</button>
+                <ul>
+                  {house.features.map((feature, index) => (
+                    <li key={index}>{feature}</li>
+                  ))}
+                </ul>
               </div>
             </div>
           ))}
