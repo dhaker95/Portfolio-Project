@@ -25,7 +25,7 @@ const About = () => {
                         Our dedicated team consists of professionals with experience in elderly care. We focus on the physical and emotional well-being of our residents, offering leisure activities, balanced meals, quality medical care, and much more.
                     </p>
                     <section>
-                        <h3>Our Achievements</h3>
+                        <h2>Our Achievements</h2>
                         <div className="achievements-counter">
                             <div className="achievement">
                                 <div className="counter-circle">
@@ -60,7 +60,7 @@ const About = () => {
                         </div>
                     </section>
                     <button onClick={toggleSections}>
-                        {isSectionsVisible ? 'Read Less' : 'Read More'}
+                        {isSectionsVisible ? 'Show Less' : 'Show More'}
                     </button>
                     {isSectionsVisible && (
                     <div className="sections">
