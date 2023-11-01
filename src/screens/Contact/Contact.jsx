@@ -30,6 +30,9 @@ const Contact = () => {
                             <button type="submit">Send</button>
                         </form>
                     </div>
+                    <div className="map_location">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6422.348638579937!2d10.618492374571822!3d36.40497754782577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd61fc0dac1583%3A0x8f1c841291df5ff!2sHammamet!5e0!3m2!1sen!2stn!4v1698861424023!5m2!1sen!2stn" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
 
             </div>
