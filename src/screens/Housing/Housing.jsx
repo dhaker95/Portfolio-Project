@@ -91,6 +91,7 @@ const Housing = () => {
 
     return (
         <>
+        <Header/>
             <div className="housing">
                 <h1>Search Available Houses</h1>
                 <div className="search-bar">
@@ -148,6 +149,7 @@ const Housing = () => {
                     ))}
                 </div>
             </div>
+            <Footer/>
         </>
     );
 };
