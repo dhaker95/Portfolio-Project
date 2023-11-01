@@ -1,11 +1,11 @@
 /* Housing.css */
 .housing {
     text-align: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 .housing h1 {
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .house-list {
@@ -15,9 +15,9 @@
 }
 
 .house {
-    width: 45%;
-    margin: 10px;
-    padding: 10px;
+    width: 40%; /* Reduce the width of the house blocks */
+    margin: 7px;
+    padding: 7px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -32,10 +32,10 @@
 .house-images img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 0px;
     margin: 10px 0;
-    max-width: 300px;
-    height: 200px; /* Set the image size to 300x200 pixels */
+    max-width: 150px;
+    height: 150px; /* Set the image size to 150x150 pixels */
 }
 
 .house-details {
@@ -43,13 +43,15 @@
 }
 
 .house-details h2 {
-    font-size: 20px;
+    font-size: 18px; /* Reduce the font size for house titles */
     color: #333;
+    margin: 5px 0; /* Reduce the margin around titles */
 }
 
 .house-details p {
-    font-size: 16px;
+    font-size: 14px; /* Reduce the font size for property details */
     color: #666;
+    margin: 3px 0; /* Reduce the margin around details */
 }
 
 .house-details ul {
@@ -58,6 +60,18 @@
 }
 
 .house-details ul li {
-    font-size: 16px;
+    font-size: 14px; /* Reduce the font size for feature details */
     color: #666;
+    margin: 3px 0; /* Reduce the margin around feature details */
+}
+
+.house-details {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.house-details button {
+    align-self: flex-end;
 }
