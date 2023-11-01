@@ -46,6 +46,10 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
     flex-wrap: wrap;
+    background-image: url('../../assets//Contact/bg-body.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
 
 }
 .contact-form h2 {
