@@ -51,6 +51,28 @@ const About = () => {
                                 </div>
                             </div>
                         </section>
+                        <section className="fancy-section">
+    <div className="section-header">
+        <button className="section-button">Mission</button>
+        <button className="section-button">Vision</button>
+        <button className="section-button">Core Values</button>
+    </div>
+    <div className="section-content">
+        <div className="section-tab">
+            <h3>Mission</h3>
+            <p>To provide a warm and family-like environment for our residents, focusing on their well-being and happiness.</p>
+        </div>
+        <div className="section-tab">
+            <h3>Vision</h3>
+            <p>To be a leader in elderly care, creating fulfilling and memorable experiences.</p>
+        </div>
+        <div className="section-tab">
+            <h3>Core Values</h3>
+            <p>Compassion, Quality, Inclusivity.</p>
+        </div>
+    </div>
+</section>
+
                     <div className="sections">
                         <section>
                             <h3>Location in Hammamet, Tunisia</h3>
@@ -70,12 +92,7 @@ const About = () => {
                                 We believe that everyone deserves quality care. That's why we are committed to maintaining affordable rates for our residents. Our goal is to make our services accessible to all.
                             </p>
                         </section>
-                        <section>
-                            <h3>Mission, Vision, Core Values</h3>
-                            <p>Mission: To provide a warm and family-like environment for our residents, focusing on their well-being and happiness.</p>
-                            <p>Vision: To be a leader in elderly care, creating fulfilling and memorable experiences.</p>
-                            <p>Core Values: Compassion, Quality, Inclusivity.</p>
-                        </section>
+                        
                         <section>
                             <h3>History</h3>
                             <ul>
