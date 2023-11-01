@@ -7,19 +7,12 @@
 /* Style for each slide */
 .slide {
     position: relative;
-    height: 1100px;
+    height: 900px;
     overflow: hidden;
   }
   
   /* Style for the slide background */
-  .slide-background {
-    width: 90%;
-    height: 100%;
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
-  }
+ 
   
   /* Style for the slide content */
   .slide-content {
@@ -227,10 +220,9 @@
 
 /* Style for the slide background */
 .slide-background {
-  width: 90%;
+  width: 100%;
   height: 100%;
   background-size: cover; 
-  background-position: center;
   background-repeat: no-repeat;
   margin: auto;
 }
