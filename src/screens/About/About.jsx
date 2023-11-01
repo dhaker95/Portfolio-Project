@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import CountUp from 'react-countup';
 import './About.css';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 
+
 const About = () => {
+    const [isCounting, setIsCounting] = useState(false);
     return (
         <>
             <Header />
@@ -17,61 +20,41 @@ const About = () => {
                         Our dedicated team consists of professionals with experience in elderly care. We focus on the physical and emotional well-being of our residents, offering leisure activities, balanced meals, quality medical care, and much more.
                     </p>
                     <section>
-                            <h3>Our Achievements</h3>
-                            <div className="achievements-counter">
-                                <div className="achievement">
-                                    <div className="counter-circle">
-                                        <span className="counter-number">830</span>
-                                    </div>
-                                    <span className="achievement-label">Houses available</span>
+                        <h3>Our Achievements</h3>
+                        <div className="achievements-counter">
+                            <div className="achievement">
+                                <div className="counter-circle">
+                                    <CountUp start={isCounting ? 0 : null} end={830} duration={3} />
                                 </div>
-                                <div className="achievement">
-                                    <div className="counter-circle">
-                                        <span className="counter-number">3</span>
-                                    </div>
-                                    <span className="achievement-label">Countries</span>
-                                </div>
-                                <div className="achievement">
-                                    <div className="counter-circle">
-                                        <span className="counter-number">280</span>
-                                    </div>
-                                    <span className="achievement-label">Retired Clients</span>
-                                </div>
-                                <div className="achievement">
-                                    <div className="counter-circle">
-                                        <span className="counter-number">121</span>
-                                    </div>
-                                    <span className="achievement-label">Returing Clients</span>
-                                </div>
-                                <div className="achievement">
-                                    <div className="counter-circle">
-                                        <span className="counter-number">540</span>
-                                    </div>
-                                    <span className="achievement-label">Happy clients</span>
-                                </div>
+                                <span className="achievement-label">Houses available</span>
                             </div>
-                        </section>
-                        <section className="fancy-section">
-    <div className="section-header">
-        <button className="section-button">Mission</button>
-        <button className="section-button">Vision</button>
-        <button className="section-button">Core Values</button>
-    </div>
-    <div className="section-content">
-        <div className="section-tab">
-            <h3>Mission</h3>
-            <p>To provide a warm and family-like environment for our residents, focusing on their well-being and happiness.</p>
-        </div>
-        <div className="section-tab">
-            <h3>Vision</h3>
-            <p>To be a leader in elderly care, creating fulfilling and memorable experiences.</p>
-        </div>
-        <div className="section-tab">
-            <h3>Core Values</h3>
-            <p>Compassion, Quality, Inclusivity.</p>
-        </div>
-    </div>
-</section>
+                            <div className="achievement">
+                                <div className="counter-circle">
+                                <CountUp start={isCounting ? 0 : null} end={3} duration={3} />
+                                </div>
+                                <span className="achievement-label">Countries</span>
+                            </div>
+                            <div className="achievement">
+                                <div className="counter-circle">
+                                <CountUp start={isCounting ? 0 : null} end={280} duration={3} />
+                                </div>
+                                <span className="achievement-label">Retired Clients</span>
+                            </div>
+                            <div className="achievement">
+                                <div className="counter-circle">
+                                <CountUp start={isCounting ? 0 : null} end={121} duration={3} />
+                                </div>
+                                <span className="achievement-label">Returing Clients</span>
+                            </div>
+                            <div className="achievement">
+                                <div className="counter-circle">
+                                <CountUp start={isCounting ? 0 : null} end={540} duration={3} />
+                                </div>
+                                <span className="achievement-label">Happy clients</span>
+                            </div>
+                        </div>
+                    </section>
+                
 
                     <div className="sections">
                         <section>
@@ -92,16 +75,8 @@ const About = () => {
                                 We believe that everyone deserves quality care. That's why we are committed to maintaining affordable rates for our residents. Our goal is to make our services accessible to all.
                             </p>
                         </section>
-                        
-                        <section>
-                            <h3>History</h3>
-                            <ul>
-                                <li>2012: Company registration</li>
-                                <li>2012: First retired sale</li>
-                                <li>2024: Mastercard Housing Award</li>
-                                {/* Add more history events here */}
-                            </ul>
-                        </section>
+
+                       
                     </div>
                 </div>
             </div>
