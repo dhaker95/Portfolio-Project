@@ -6,6 +6,9 @@ import house1_3 from '../../assets/Housing/house1-3.jpg';
 import house2_1 from '../../assets/Housing/house2-1.jpg';
 import house2_2 from '../../assets/Housing/house2-2.jpg';
 import house2_3 from '../../assets/Housing/house2-3.jpg';
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
+
 
 const Housing = () => {
     const [searchCriteria, setSearchCriteria] = useState({

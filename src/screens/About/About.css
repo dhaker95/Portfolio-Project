@@ -6,7 +6,6 @@
     justify-content: center;
     align-items: center;
     min-height: 80vh;
-    
 }
 
 .about-content {
@@ -16,14 +15,14 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 70%;
-    transition: all 0.3s; 
-    position: relative;
-    top: -150px;
+    margin-top: 20px; /* Add margin-top to move the content down */
 }
-.about-content h3,.about-container h2{
-    font-family: 'Lobster Two', Helvetica, sans-serif;
 
+.about-content h3,
+.about-container h2 {
+    font-family: 'Lobster Two', Helvetica, sans-serif;
 }
+
 .about-content h2 {
     font-size: 32px;
     color: #333;
@@ -36,19 +35,38 @@
     margin-bottom: 20px;
 }
 
-.read-more-button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: background-color 0.3s;
+.achievements-counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.read-more-button:hover {
-    background-color: #0056b3;
+.achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #007BFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.counter-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000; /* Blue color for the counter */
+}
+
+read-more-button {
+    display: none; /* Remove the Read More button */
 }
 
 /* Animation when "Read More" content appears */
