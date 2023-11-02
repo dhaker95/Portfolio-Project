@@ -4,6 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 import './Home.css';
+import { Link } from 'react-router-dom';
 import img1 from '../../assets/Home/img1.jpg';
 import img2 from '../../assets/Home/img2.jpg';
 import img3 from '../../assets/Home/img3.jpeg';
@@ -122,9 +123,9 @@ const Home = () => {
                         <p>
                             If you have any questions or would like to schedule a visit, please don't hesitate to contact us. We are here to help you make the best decision for yourself or your loved ones.
                         </p>
-                        <a href="/contact" className="contact-button">
+                        <Link to="/contact" className="contact-button">
                             Contact Us
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
