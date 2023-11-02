@@ -1,31 +1,34 @@
 @import url('https://fonts.cdnfonts.com/css/lobster-two');
 
-.home,.about-container,.contact-container{
+.home,
+.about-container,
+.contact-container {
   background-color: blanchedalmond;
 }
 
 /* Style for each slide */
 .slide {
-    position: relative;
-    height: 900px;
-    overflow: hidden;
-  }
-  
-  /* Style for the slide background */
- 
-  
-  /* Style for the slide content */
-  .slide-content {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
-    font-size: 75px;
-    font-weight: bold;
-  }
-  /* Home.css */
+  position: relative;
+  height: 900px;
+  overflow: hidden;
+}
+
+/* Style for the slide background */
+
+
+/* Style for the slide content */
+.slide-content {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 75px;
+  font-weight: bold;
+}
+
+/* Home.css */
 .retirement-section {
   background-color: #f9f9f9;
   padding: 20px;
@@ -41,6 +44,7 @@
   font-size: 16px;
   color: #666;
 }
+
 /* Home.css */
 
 /* Styles for the Services Section */
@@ -56,7 +60,7 @@
 }
 
 .services-section p {
-  font-size: 16px;
+  font-size: 25px !important;
   color: #666;
 }
 
@@ -109,7 +113,9 @@
 .contact-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007BFF;
+  background-color: rgba(79, 34, 17, 0.8);
+  margin: 100px auto 30px auto;
+  font-size: 20px;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -120,10 +126,12 @@
 .contact-button:hover {
   background-color: #0056b3;
 }
-.inner_sections{
+
+.inner_sections {
   width: 90%;
   margin: auto;
 }
+
 /* CSS for the services section */
 .services-section {
   background-color: #f5f5f5;
@@ -136,24 +144,27 @@
 .services-content {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
 .services-text {
   flex: 1;
-  padding-right: 20px;
-  text-align: center;
+  padding-left: 40px ;
+  text-align: left;
+  width: 60%;
 }
 
+
 .services-text h2 {
-  font-size: 20px;
+  font-size: 35px !important;
   color: #333;
 }
 
 .services-text p {
   font-size: 16px;
   color: #666;
+  width: 100%;
 }
 
 .services-image {
@@ -162,6 +173,51 @@
 }
 
 .services-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+/* CSS for the goals section */
+.goals .services-section {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.goals .services-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.goals .services-text {
+  flex: 1;
+  padding-right: 40px ;
+  text-align: right;
+  width: 60%;
+}
+
+
+.goals .services-text h2 {
+  font-size: 35px !important;
+  color: #333;
+}
+
+.goals .services-text p {
+  font-size: 16px;
+  color: #666;
+  width: 100%;
+}
+
+.goals .services-image {
+  flex: 1;
+  text-align: center;
+}
+
+.goals .services-image img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
@@ -210,11 +266,12 @@
 }
 
 .carousel-container {
-  width: 40%; 
-  height: 100vh; 
-  float: left; 
-  overflow: hidden; 
+  width: 40%;
+  height: 100vh;
+  float: left;
+  overflow: hidden;
 }
+
 /* Home.css */
 
 
@@ -222,38 +279,45 @@
 .slide-background {
   width: 100%;
   height: 100%;
-  background-size: cover; 
+  background-size: cover;
   background-repeat: no-repeat;
   margin: auto;
 }
+
 @-webkit-keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;
     opacity: 0;
   }
+
   40% {
     opacity: 0.6;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;
     opacity: 0;
   }
+
   40% {
     opacity: 0.6;
   }
+
   100% {
     opacity: 1;
   }
 }
-.slide-content p{
+
+.slide-content p {
   -webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-          text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
-          font-family: 'Lobster Two', Helvetica, sans-serif;
+  animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+  font-family: 'Lobster Two', Helvetica, sans-serif;
 
 }
