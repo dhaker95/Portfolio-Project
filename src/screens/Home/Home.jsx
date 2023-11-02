@@ -12,6 +12,7 @@ import testimonialImage2 from '../../assets/Home/testimonial2.jpg';
 import testimonialImage3 from '../../assets/Home/testimonial3.jpeg';
 import Footer from '../../components/Footer/Footer';
 import servicesImage from '../../assets/Home/services.jpg';
+import environmentImage from '../../assets/Home/environment.png';
 
 const Home = () => {
     // Sample slider settings
@@ -78,7 +79,7 @@ const Home = () => {
                     <div className="goals services-section">
                         <div className="goals services-content">
                         <div className="goals services-image">
-                                <img src={servicesImage} alt="Services" />
+                                <img src={environmentImage} alt="Services" />
                             </div>
                             <div className="goals services-text">
                                 <h2>Our Environment</h2>
