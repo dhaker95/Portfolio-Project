@@ -15,6 +15,7 @@ const Housing = () => {
         bedrooms: '',
         bathrooms: '',
         Price: '',
+		Location: '',
     });
 
     const handleSearchChange = (e) => {
@@ -32,45 +33,90 @@ const Housing = () => {
 
     // Sample house data
     const houses = [
-        {
-            id: 1,
-            bedrooms: 3,
-            bathrooms: 2,
-            Price: 'R 9000.00',
-            agent: {
-                name: 'Hilya Ntinda',
-                email: 'ntindahilya@gmail.com',
-                country: 'Namibia',
-            },
-            images: [house1_1],
-            features: ['Built-in Closet', 'Garden', 'Garage'],
-        },
-        {
-            id: 2,
-            bedrooms: 4,
-            bathrooms: 3,
-            Price: 'R 12000.00',
-            agent: {
-                name: 'Hilya Ntinda',
-                email: 'ntindahilya@gmail.com',
-                country: 'Namibia',
-            },
-            images: [house1_2],
-            features: ['Swimming Pool', 'Spacious Living Room', 'Modern Kitchen'],
-        },
-        {
-            id: 3,
-            bedrooms: 1,
-            bathrooms: 1,
-            Price: 'R 4000.00',
-            agent: {
-                name: 'Hilya Ntinda',
-                email: 'ntindahilya@gmail.com',
-                country: 'Namibia',
-            },
-            images: [house1_3],
-            features: ['Built-in Closet', 'Garden', 'Garage', 'Swimming Pool'],
-        },
+    {
+      id: 1,
+      bedrooms: 3,
+      bathrooms: 2,
+      Price: 'R 9000.00',
+      Location: 'Windhoek',
+      images: [house1_1],
+      features: ['Built-in Closet', 'Garden', 'Garage', 'Gym'],
+      agent: {
+        name: 'Hilya Ntinda',
+        email: 'ntindahilya@gmail.com',
+        country: 'Namibia',
+      },
+    },
+    {
+      id: 2,
+      bedrooms: 4,
+      bathrooms: 3,
+      Price: 'R 12000.00',
+      Location: 'Nigeria',
+      images: [house1_2],
+      features: ['Swimming Pool', 'Spacious Living Room', 'Modern Kitchen'],
+      agent: {
+        name: 'Hilya Ntinda',
+        email: 'ntindahilya@gmail.com',
+        country: 'Namibia',
+      },
+    },
+    {
+      id: 3,
+      bedrooms: 1,
+      bathrooms: 1,
+      Price: 'R 4000.00',
+      Location: 'Tunisia',
+      images: [house1_3],
+      features: ['Built-in Closet', 'Garden', 'Garage', 'Swimming Pool'],
+      agent: {
+        name: 'Hilya Ntinda',
+        email: 'ntindahilya@gmail.com',
+        country: 'Namibia',
+      },
+    },
+    {
+      id: 4,
+      bedrooms: 4,
+      bathrooms: 3,
+      Price: 'R 24000.00',
+      Location: 'Lagos',
+      images: [house2_1],
+      features: ['Stove', 'Garden', 'Garage', 'Swimming Pool', 'Gym', 'Built-in Closet'],
+      agent: {
+        name: 'Hilya Ntinda',
+        email: 'ntindahilya@gmail.com',
+        country: 'Namibia',
+      },
+    },
+    {
+      id: 5,
+      bedrooms: 3,
+      bathrooms: 3,
+      Price: 'R 14000.00',
+      Location: 'Mahdia',
+      images: [house2_2],
+      features: ['Stove', 'Garden', 'Garage', 'Swimming Pool', 'Gym', 'Built-in Closet'],
+      agent: {
+        name: 'Hilya Ntinda',
+        email: 'ntindahilya@gmail.com',
+        country: 'Namibia',
+      },
+    },
+    {
+      id: 6,
+      bedrooms: 3,
+      bathrooms: 4,
+      Price: 'R 13500.00',
+      Location: 'Swakopmund',
+      images: [house2_3],
+      features: ['Built-in Closet', 'Garden', 'Garage', 'Swimming Pool', 'Gym'],
+      agent: {
+        name: 'Hilya Ntinda',
+        email: 'ntindahilya@gmail.com',
+        country: 'Namibia',
+      },
+    },
         // Add more house objects as needed
     ];
 
@@ -81,7 +127,8 @@ const Housing = () => {
             return (
                 (searchCriteria.bedrooms === '' || house.bedrooms.toString() === searchCriteria.bedrooms) &&
                 (searchCriteria.bathrooms === '' || house.bathrooms.toString() === searchCriteria.bathrooms) &&
-                (searchCriteria.Price === '' || house.Price.toString() === searchCriteria.Price)
+                (searchCriteria.Price === '' || house.Price.toString() === searchCriteria.Price) &&
+                (searchCriteria.Location === '' || house.Location.toString() === searchCriteria.Location)
             );
         });
 
@@ -116,6 +163,13 @@ const Housing = () => {
                         onChange={handleSearchChange}
                         placeholder="Price"
                     />
+					 <input
+            type="text"
+            name="Location"
+            value={searchCriteria.Location}
+            onChange={handleSearchChange}
+            placeholder="Location"
+          />
                     <button onClick={handleSearch}>Search</button>
                 </div>
                 <div className="house-list">
@@ -136,6 +190,7 @@ const Housing = () => {
                                 <p>Bedrooms: {house.bedrooms}</p>
                                 <p>Bathrooms: {house.bathrooms}</p>
                                 <p>Price: {house.Price}</p>
+								<p>Location: {house.Location}</p>
                                 <ul>
                                     {house.features.map((feature, index) => (
                                         <li key={index}>{feature}</li>

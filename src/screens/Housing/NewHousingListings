@@ -1,0 +1,222 @@
+<!-- wp:ive/page-title -->
+<div class="wp-block-ive-page-title"> </div>
+<!-- /wp:ive/page-title -->
+
+<!-- wp:ive/carousel {"uniqueID":"_44654f-f6","navType":["arrows","arrows","arrows"],"autoplaySpeed":1000,"navigationSpeed":1000,"dotSpeed":1000,"displayItem":[1,1,1],"navArrowSize":[20,20,20],"navArrowColor":"#ffffff","navArrowBgColor":"#ed0009","navArrowBdColor":"transparent","dotsalign":"left","navArrowBgHovColor":"#ed0009","navArrowBdHovColor":"transparent","contentBorder":[0,0,0,0],"contentBorderStyle":"none","blockAlignment":"full","titles":[{"text":"Slide 1","icon":"","iconSide":"right","onlyIcon":false,"subText":"","anchor":""},{"text":"Slide 2","icon":"","iconSide":"right","onlyIcon":false,"subText":""},{"text":"Slide 3","icon":"","iconSide":"right","onlyIcon":false,"subText":""}],"className":"vw-free-onepage slider-section"} -->
+<div class="wp-block-ive-carousel alignfull vw-free-onepage slider-section">
+<div class="ive-carousel-wrap ive-carousel-id_44654f-f6 ive-carousel-has-3-tabs ive-active-tab-1 ive-carousel-layout-tabs ive-carousel-tablet-layout-inherit ive-carousel-mobile-layout-inherit ">
+<div class="ive-carousel-content-wrap owl-carousel owl-theme" data-margin="0" data-stagepadding="0" data-rewind="false" data-autoplay="true" data-autoplaytimeout="5000" data-autoplayhoverpause="true" data-autoplayspeed="1000" data-navspeed="1000" data-dotsspeed="1000" data-loop="false" data-responsive-desk="1" data-responsive-tab="1" data-responsive-mob="1" data-navtextprev="fas fa-angle-left" data-navtextnext="fas fa-angle-right" data-navbtntype="icon"><!-- wp:ive/slide {"uniqueID":"_1cdfd7-bc"} -->
+<div class="wp-block-ive-slide ive-slide-inner-content ive-inner-tab-1 ive-inner-tab_1cdfd7-bc">
+<div class="ive-slide-inner-content-inner"><!-- wp:ive/carouselimage {"uniqueID":"_65f587-f8","backgroundImage":"https://vwthemesdemo.com/ibtana_json/free_theme/vw_one_page/slider.png","left":[14,40,58],"right":[14,10,7],"bgOpacity":50,"bgColor":"#000000"} -->
+<div class="wp-block-ive-carouselimage">
+<div class="carousel-outer carousel-outer-dynamic_65f587-f8">
+<div class="carousel-image"><img src="https://vwthemesdemo.com/ibtana_json/free_theme/vw_one_page/slider.png" />
+<div class="carosol-overlay"> </div>
+</div>
+<div class="carousel-content"><!-- wp:ive/ibtana-visual-editorheading {"headContent":"Lorem ipsum dolor sit amet consectetur","level":1,"uniqueID":"_efd2d8-4d","deskalign":"end","tabalign":"end","color":"#ffffff","lineHeight":[45,45,45],"letterSpacing":5,"typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"700","fontWeight":"700","bottomMargin":20,"deskfontSize":35,"tabfontSize":30,"mobfontSize":20,"mobvisible":false,"textTransform":"uppercase","backgroundcolor":"#ed0009","paddingtopdesk":"15","paddingrightdesk":"15","paddingbottomdesk":"15","paddingleftdesk":"15","paddingtoptablet":"15","paddingrighttablet":"15","paddingbottomtablet":"15","paddinglefttablet":"15","paddingtopmob":"15","paddingrightmob":"15","paddingbottommob":"15","paddingleftmob":"15"} -->
+<div class="wp-block-ive-ibtana-visual-editorheading">
+<div class="ive-advanced-text-wrap ive-div-advance-text_efd2d8-4d undefined text-center text-md-end text-lg-end text-xl-end">
+<h1 id="ive-adv-advance-text_efd2d8-4d" class="ive-heading-parent undefined ive-advanced-text-inner-wrap ive-adv-advance-text_efd2d8-4d ive-lh-xs-45 ive-lh-sm-45 ive-lh-md-45 ive-lh-lg-45 ive-lh-xl-45">Lorem ipsum dolor sit amet consectetur</h1>
+</div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorheading -->
+
+<!-- wp:ive/ibtana-visual-editorheading {"headContent":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","level":7,"uniqueID":"_6be207-ff","deskalign":"end","tabalign":"end","mobalign":"end","color":"#ffffff","letterSpacing":0,"typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"regular","deskfontSize":14,"tabfontSize":14,"mobfontSize":14,"tabvisible":false,"mobvisible":false} -->
+<div class="wp-block-ive-ibtana-visual-editorheading">
+<div class="ive-advanced-text-wrap ive-div-advance-text_6be207-ff undefined text-end text-md-end text-lg-end text-xl-end">
+<p id="ive-adv-advance-text_6be207-ff" class="ive-heading-parent undefined ive-advanced-text-inner-wrap ive-adv-advance-text_6be207-ff ive-lh-xs-30 ive-lh-sm-30 ive-lh-md-30 ive-lh-lg-30 ive-lh-xl-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorheading -->
+
+<!-- wp:ive/ibtana-visual-editorbtn {"uniqueID":"_99ea4c-24","btns":[{"text":"READ MORE","link":"","target":"_self","desksize":12,"tabsize":12,"mobsize":12,"deskAlign":"end","tabAlign":"end","mobAlign":"center","deskMarginTop":20,"tabMarginTop":20,"mobMarginTop":20,"deskpaddingBT":12,"deskpaddingLR":16,"tabpaddingBT":12,"tabpaddingLR":16,"mobpaddingBT":12,"mobpaddingLR":16,"color":"#ffffff","background":"#ed0009","border":"#555555","borderRadius":0,"borderWidth":0,"colorHover":"#ffffff","backgroundHover":"#4f4f4f","borderHover":"#444444","icon":"","iconSide":"right","iconpaddingleft":5,"iconpaddingright":5,"iconHover":false,"iconSvg":""}],"letterSpacing":1,"typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"600","fontWeight":"600"} -->
+<div class="wp-block-ive-ibtana-visual-editorbtn btn-inner-wrap ive-btn-main-parent_99ea4c-24">
+<div class="ive-btn-wrap ive-btn-unique_99ea4c-24 undefined ive-btn-wrap-0 ive-btn-align  text-center text-sm-end text-lg-end text-xl-end "><a class="anchrstyle ive-button-ad_99ea4c-24 ive-button-0 ive-btn-0-action ive-btn-svg-showalways ive-btn-has-text-true" href="#" target="_self" rel="noreferrer noopener"><span class="ive-btn-inner-text">READ MORE</span></a></div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorbtn --></div>
+</div>
+</div>
+<!-- /wp:ive/carouselimage --></div>
+</div>
+<!-- /wp:ive/slide -->
+
+<!-- wp:ive/slide {"id":2,"uniqueID":"_6bac23-4a"} -->
+<div class="wp-block-ive-slide ive-slide-inner-content ive-inner-tab-2 ive-inner-tab_6bac23-4a">
+<div class="ive-slide-inner-content-inner"><!-- wp:ive/carouselimage {"uniqueID":"_506251-cf","backgroundImage":"https://vwthemesdemo.com/ibtana_json/free_theme/vw_one_page/slider.png","left":[14,40,58],"right":[14,10,7],"bgOpacity":50,"bgColor":"#000000"} -->
+<div class="wp-block-ive-carouselimage">
+<div class="carousel-outer carousel-outer-dynamic_506251-cf">
+<div class="carousel-image"><img src="https://vwthemesdemo.com/ibtana_json/free_theme/vw_one_page/slider.png" />
+<div class="carosol-overlay"> </div>
+</div>
+<div class="carousel-content"><!-- wp:ive/ibtana-visual-editorheading {"headContent":"Lorem ipsum dolor sit amet consectetur","level":1,"uniqueID":"_947a5c-b3","deskalign":"end","tabalign":"end","color":"#ffffff","lineHeight":[45,45,45],"letterSpacing":5,"typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"700","fontWeight":"700","bottomMargin":20,"deskfontSize":35,"tabfontSize":30,"mobfontSize":20,"mobvisible":false,"textTransform":"uppercase","backgroundcolor":"#ed0009","paddingtopdesk":"15","paddingrightdesk":"15","paddingbottomdesk":"15","paddingleftdesk":"15","paddingtoptablet":"15","paddingrighttablet":"15","paddingbottomtablet":"15","paddinglefttablet":"15","paddingtopmob":"15","paddingrightmob":"15","paddingbottommob":"15","paddingleftmob":"15"} -->
+<div class="wp-block-ive-ibtana-visual-editorheading">
+<div class="ive-advanced-text-wrap ive-div-advance-text_947a5c-b3 undefined text-center text-md-end text-lg-end text-xl-end">
+<h1 id="ive-adv-advance-text_947a5c-b3" class="ive-heading-parent undefined ive-advanced-text-inner-wrap ive-adv-advance-text_947a5c-b3 ive-lh-xs-45 ive-lh-sm-45 ive-lh-md-45 ive-lh-lg-45 ive-lh-xl-45">Lorem ipsum dolor sit amet consectetur</h1>
+</div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorheading -->
+
+<!-- wp:ive/ibtana-visual-editorheading {"headContent":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","level":7,"uniqueID":"_53b2f6-00","deskalign":"end","tabalign":"end","mobalign":"end","color":"#ffffff","letterSpacing":0,"typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"regular","deskfontSize":14,"tabfontSize":14,"mobfontSize":14,"tabvisible":false,"mobvisible":false} -->
+<div class="wp-block-ive-ibtana-visual-editorheading">
+<div class="ive-advanced-text-wrap ive-div-advance-text_53b2f6-00 undefined text-end text-md-end text-lg-end text-xl-end">
+<p id="ive-adv-advance-text_53b2f6-00" class="ive-heading-parent undefined ive-advanced-text-inner-wrap ive-adv-advance-text_53b2f6-00 ive-lh-xs-30 ive-lh-sm-30 ive-lh-md-30 ive-lh-lg-30 ive-lh-xl-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorheading -->
+
+<!-- wp:ive/ibtana-visual-editorbtn {"uniqueID":"_ab81fe-60","btns":[{"text":"READ MORE","link":"","target":"_self","desksize":12,"tabsize":12,"mobsize":12,"deskAlign":"end","tabAlign":"end","mobAlign":"center","deskMarginTop":20,"tabMarginTop":20,"mobMarginTop":20,"deskpaddingBT":12,"deskpaddingLR":16,"tabpaddingBT":12,"tabpaddingLR":16,"mobpaddingBT":12,"mobpaddingLR":16,"color":"#ffffff","background":"#ed0009","border":"#555555","borderRadius":0,"borderWidth":0,"colorHover":"#ffffff","backgroundHover":"#4f4f4f","borderHover":"#444444","icon":"","iconSide":"right","iconpaddingleft":5,"iconpaddingright":5,"iconHover":false,"iconSvg":""}],"letterSpacing":1,"typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"600","fontWeight":"600"} -->
+<div class="wp-block-ive-ibtana-visual-editorbtn btn-inner-wrap ive-btn-main-parent_ab81fe-60">
+<div class="ive-btn-wrap ive-btn-unique_ab81fe-60 undefined ive-btn-wrap-0 ive-btn-align  text-center text-sm-end text-lg-end text-xl-end "><a class="anchrstyle ive-button-ad_ab81fe-60 ive-button-0 ive-btn-0-action ive-btn-svg-showalways ive-btn-has-text-true" href="#" target="_self" rel="noreferrer noopener"><span class="ive-btn-inner-text">READ MORE</span></a></div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorbtn --></div>
+</div>
+</div>
+<!-- /wp:ive/carouselimage --></div>
+</div>
+<!-- /wp:ive/slide -->
+
+<!-- wp:ive/slide {"id":3,"uniqueID":"_568334-3c"} -->
+<div class="wp-block-ive-slide ive-slide-inner-content ive-inner-tab-3 ive-inner-tab_568334-3c">
+<div class="ive-slide-inner-content-inner"><!-- wp:ive/carouselimage {"uniqueID":"_919f69-b2","backgroundImage":"https://vwthemesdemo.com/ibtana_json/free_theme/vw_one_page/slider.png","left":[14,40,58],"right":[14,10,7],"bgOpacity":50,"bgColor":"#000000"} -->
+<div class="wp-block-ive-carouselimage">
+<div class="carousel-outer carousel-outer-dynamic_919f69-b2">
+<div class="carousel-image"><img src="https://vwthemesdemo.com/ibtana_json/free_theme/vw_one_page/slider.png" />
+<div class="carosol-overlay"> </div>
+</div>
+<div class="carousel-content"><!-- wp:ive/ibtana-visual-editorheading {"headContent":"Lorem ipsum dolor sit amet consectetur","level":1,"uniqueID":"_a0385d-07","deskalign":"end","tabalign":"end","color":"#ffffff","lineHeight":[45,45,45],"letterSpacing":5,"typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"700","fontWeight":"700","bottomMargin":20,"deskfontSize":35,"tabfontSize":30,"mobfontSize":20,"mobvisible":false,"textTransform":"uppercase","backgroundcolor":"#ed0009","paddingtopdesk":"15","paddingrightdesk":"15","paddingbottomdesk":"15","paddingleftdesk":"15","paddingtoptablet":"15","paddingrighttablet":"15","paddingbottomtablet":"15","paddinglefttablet":"15","paddingtopmob":"15","paddingrightmob":"15","paddingbottommob":"15","paddingleftmob":"15"} -->
+<div class="wp-block-ive-ibtana-visual-editorheading">
+<div class="ive-advanced-text-wrap ive-div-advance-text_a0385d-07 undefined text-center text-md-end text-lg-end text-xl-end">
+<h1 id="ive-adv-advance-text_a0385d-07" class="ive-heading-parent undefined ive-advanced-text-inner-wrap ive-adv-advance-text_a0385d-07 ive-lh-xs-45 ive-lh-sm-45 ive-lh-md-45 ive-lh-lg-45 ive-lh-xl-45">Lorem ipsum dolor sit amet consectetur</h1>
+</div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorheading -->
+
+<!-- wp:ive/ibtana-visual-editorheading {"headContent":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","level":7,"uniqueID":"_676cee-8d","deskalign":"end","tabalign":"end","mobalign":"end","color":"#ffffff","letterSpacing":0,"typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"regular","deskfontSize":14,"tabfontSize":14,"mobfontSize":14,"tabvisible":false,"mobvisible":false} -->
+<div class="wp-block-ive-ibtana-visual-editorheading">
+<div class="ive-advanced-text-wrap ive-div-advance-text_676cee-8d undefined text-end text-md-end text-lg-end text-xl-end">
+<p id="ive-adv-advance-text_676cee-8d" class="ive-heading-parent undefined ive-advanced-text-inner-wrap ive-adv-advance-text_676cee-8d ive-lh-xs-30 ive-lh-sm-30 ive-lh-md-30 ive-lh-lg-30 ive-lh-xl-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorheading -->
+
+<!-- wp:ive/ibtana-visual-editorbtn {"uniqueID":"_43b54e-d9","btns":[{"text":"READ MORE","link":"","target":"_self","desksize":12,"tabsize":12,"mobsize":12,"deskAlign":"end","tabAlign":"end","mobAlign":"center","deskMarginTop":20,"tabMarginTop":20,"mobMarginTop":20,"deskpaddingBT":12,"deskpaddingLR":16,"tabpaddingBT":12,"tabpaddingLR":16,"mobpaddingBT":12,"mobpaddingLR":16,"color":"#ffffff","background":"#ed0009","border":"#555555","borderRadius":0,"borderWidth":0,"colorHover":"#ffffff","backgroundHover":"#4f4f4f","borderHover":"#444444","icon":"","iconSide":"right","iconpaddingleft":5,"iconpaddingright":5,"iconHover":false,"iconSvg":""}],"letterSpacing":1,"typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"600","fontWeight":"600"} -->
+<div class="wp-block-ive-ibtana-visual-editorbtn btn-inner-wrap ive-btn-main-parent_43b54e-d9">
+<div class="ive-btn-wrap ive-btn-unique_43b54e-d9 undefined ive-btn-wrap-0 ive-btn-align  text-center text-sm-end text-lg-end text-xl-end "><a class="anchrstyle ive-button-ad_43b54e-d9 ive-button-0 ive-btn-0-action ive-btn-svg-showalways ive-btn-has-text-true" href="#" target="_self" rel="noreferrer noopener"><span class="ive-btn-inner-text">READ MORE</span></a></div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorbtn --></div>
+</div>
+</div>
+<!-- /wp:ive/carouselimage --></div>
+</div>
+<!-- /wp:ive/slide --></div>
+</div>
+</div>
+<!-- /wp:ive/carousel -->
+
+<!-- wp:columns {"className":"vw-free-onepage service-section"} -->
+<div class="wp-block-columns vw-free-onepage service-section"><!-- wp:column {"className":"service-box px-3 py-4 mb-md-0 mb-3"} -->
+<div class="wp-block-column service-box px-3 py-4 mb-md-0 mb-3"><!-- wp:ive/icon {"icons":[{"icon":"fe_aperture","iconSvg":"fas fa-bullhorn","link":"","target":"_self","desksize":50,"tabsize":50,"mobsize":50,"title":"","deskwidth":"auto","deskheight":"auto","tabwidth":"auto","tabheight":"auto","mobwidth":"auto","mobheight":"auto","color":"#4f4f4f","background":"#ffffff","hoverBackground":"#000000","border":"#444444","hoverBorder":"#FF0000","borderRadius":0,"borderWidth":2,"borderStyle":"none","deskpadding":20,"tabpadding":16,"mobpadding":12,"deskpadding2":20,"tabpadding2":16,"mobpadding2":12,"style":"default"}],"uniqueID":"_4f309e-95","className":"text-center text-md-center ive-icon-xl-center"} -->
+<div class="wp-block-ive-icon ive-svg-icons-block ive-svg-icons_4f309e-95  justify-content-xl-center justify-content-lg-center justify-content-sm-center justify-content-center text-center text-md-center ive-icon-xl-center">
+<div class="ive-svg-style-default ive-svg-icon-wrap ive-svg-item-0 ive-svg-icon-margin">
+<div class="ive-svg-icon-link ive_icon_main_parent ive_icon_parent_icon_padding0"> </div>
+</div>
+</div>
+<!-- /wp:ive/icon -->
+
+<!-- wp:ive/ibtana-visual-editorheading {"headContent":"Service Title 1","uniqueID":"_9dfc6e-61","color":"#4f4f4f","letterSpacing":0,"typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"600","fontWeight":"600","topMargin":15,"deskfontSize":15,"tabfontSize":15,"mobfontSize":15,"textTransform":"uppercase"} -->
+<div class="wp-block-ive-ibtana-visual-editorheading">
+<div class="ive-advanced-text-wrap ive-div-advance-text_9dfc6e-61 undefined text-center text-md-center text-lg-center text-xl-center">
+<h2 id="ive-adv-advance-text_9dfc6e-61" class="ive-heading-parent undefined ive-advanced-text-inner-wrap ive-adv-advance-text_9dfc6e-61 ive-lh-xs-30 ive-lh-sm-30 ive-lh-md-30 ive-lh-lg-30 ive-lh-xl-30">Service Title 1</h2>
+</div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorheading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"service-box px-3 py-4 mb-md-0 mb-3"} -->
+<div class="wp-block-column service-box px-3 py-4 mb-md-0 mb-3"><!-- wp:ive/icon {"icons":[{"icon":"fe_aperture","iconSvg":"fas fa-lightbulb","link":"","target":"_self","desksize":50,"tabsize":50,"mobsize":50,"title":"","deskwidth":"auto","deskheight":"auto","tabwidth":"auto","tabheight":"auto","mobwidth":"auto","mobheight":"auto","color":"#4f4f4f","background":"#ffffff","hoverBackground":"#000000","border":"#444444","hoverBorder":"#FF0000","borderRadius":0,"borderWidth":2,"borderStyle":"none","deskpadding":20,"tabpadding":16,"mobpadding":12,"deskpadding2":20,"tabpadding2":16,"mobpadding2":12,"style":"default"}],"uniqueID":"_fa4b55-05","className":"text-center text-md-center ive-icon-xl-center"} -->
+<div class="wp-block-ive-icon ive-svg-icons-block ive-svg-icons_fa4b55-05  justify-content-xl-center justify-content-lg-center justify-content-sm-center justify-content-center text-center text-md-center ive-icon-xl-center">
+<div class="ive-svg-style-default ive-svg-icon-wrap ive-svg-item-0 ive-svg-icon-margin">
+<div class="ive-svg-icon-link ive_icon_main_parent ive_icon_parent_icon_padding0"> </div>
+</div>
+</div>
+<!-- /wp:ive/icon -->
+
+<!-- wp:ive/ibtana-visual-editorheading {"headContent":"Service Title 2","uniqueID":"_bf8ba0-b3","color":"#4f4f4f","letterSpacing":0,"typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"600","fontWeight":"600","topMargin":15,"deskfontSize":15,"tabfontSize":15,"mobfontSize":15,"textTransform":"uppercase"} -->
+<div class="wp-block-ive-ibtana-visual-editorheading">
+<div class="ive-advanced-text-wrap ive-div-advance-text_bf8ba0-b3 undefined text-center text-md-center text-lg-center text-xl-center">
+<h2 id="ive-adv-advance-text_bf8ba0-b3" class="ive-heading-parent undefined ive-advanced-text-inner-wrap ive-adv-advance-text_bf8ba0-b3 ive-lh-xs-30 ive-lh-sm-30 ive-lh-md-30 ive-lh-lg-30 ive-lh-xl-30">Service Title 2</h2>
+</div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorheading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"service-box px-3 py-4 mb-md-0 mb-3"} -->
+<div class="wp-block-column service-box px-3 py-4 mb-md-0 mb-3"><!-- wp:ive/icon {"icons":[{"icon":"fe_aperture","iconSvg":"fas fa-rocket","link":"","target":"_self","desksize":50,"tabsize":50,"mobsize":50,"title":"","deskwidth":"auto","deskheight":"auto","tabwidth":"auto","tabheight":"auto","mobwidth":"auto","mobheight":"auto","color":"#4f4f4f","background":"#ffffff","hoverBackground":"#000000","border":"#444444","hoverBorder":"#FF0000","borderRadius":0,"borderWidth":2,"borderStyle":"none","deskpadding":20,"tabpadding":16,"mobpadding":12,"deskpadding2":20,"tabpadding2":16,"mobpadding2":12,"style":"default"}],"uniqueID":"_febb94-18","className":"text-center text-md-center ive-icon-xl-center"} -->
+<div class="wp-block-ive-icon ive-svg-icons-block ive-svg-icons_febb94-18  justify-content-xl-center justify-content-lg-center justify-content-sm-center justify-content-center text-center text-md-center ive-icon-xl-center">
+<div class="ive-svg-style-default ive-svg-icon-wrap ive-svg-item-0 ive-svg-icon-margin">
+<div class="ive-svg-icon-link ive_icon_main_parent ive_icon_parent_icon_padding0"> </div>
+</div>
+</div>
+<!-- /wp:ive/icon -->
+
+<!-- wp:ive/ibtana-visual-editorheading {"headContent":"Service Title 3","uniqueID":"_8438db-f2","color":"#4f4f4f","letterSpacing":0,"typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"600","fontWeight":"600","topMargin":15,"deskfontSize":15,"tabfontSize":15,"mobfontSize":15,"textTransform":"uppercase"} -->
+<div class="wp-block-ive-ibtana-visual-editorheading">
+<div class="ive-advanced-text-wrap ive-div-advance-text_8438db-f2 undefined text-center text-md-center text-lg-center text-xl-center">
+<h2 id="ive-adv-advance-text_8438db-f2" class="ive-heading-parent undefined ive-advanced-text-inner-wrap ive-adv-advance-text_8438db-f2 ive-lh-xs-30 ive-lh-sm-30 ive-lh-md-30 ive-lh-lg-30 ive-lh-xl-30">Service Title 3</h2>
+</div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorheading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"service-box px-3 py-4 mb-md-0 mb-3"} -->
+<div class="wp-block-column service-box px-3 py-4 mb-md-0 mb-3"><!-- wp:ive/icon {"icons":[{"icon":"fe_aperture","iconSvg":"fas fa-puzzle-piece","link":"","target":"_self","desksize":50,"tabsize":50,"mobsize":50,"title":"","deskwidth":"auto","deskheight":"auto","tabwidth":"auto","tabheight":"auto","mobwidth":"auto","mobheight":"auto","color":"#4f4f4f","background":"#ffffff","hoverBackground":"#000000","border":"#444444","hoverBorder":"#FF0000","borderRadius":0,"borderWidth":2,"borderStyle":"none","deskpadding":20,"tabpadding":16,"mobpadding":12,"deskpadding2":20,"tabpadding2":16,"mobpadding2":12,"style":"default"}],"uniqueID":"_2ea217-b7","className":"text-center text-md-center ive-icon-xl-center"} -->
+<div class="wp-block-ive-icon ive-svg-icons-block ive-svg-icons_2ea217-b7  justify-content-xl-center justify-content-lg-center justify-content-sm-center justify-content-center text-center text-md-center ive-icon-xl-center">
+<div class="ive-svg-style-default ive-svg-icon-wrap ive-svg-item-0 ive-svg-icon-margin">
+<div class="ive-svg-icon-link ive_icon_main_parent ive_icon_parent_icon_padding0"> </div>
+</div>
+</div>
+<!-- /wp:ive/icon -->
+
+<!-- wp:ive/ibtana-visual-editorheading {"headContent":"Service Title 4","uniqueID":"_00a185-c2","color":"#4f4f4f","letterSpacing":0,"typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"600","fontWeight":"600","topMargin":15,"deskfontSize":15,"tabfontSize":15,"mobfontSize":15,"textTransform":"uppercase"} -->
+<div class="wp-block-ive-ibtana-visual-editorheading">
+<div class="ive-advanced-text-wrap ive-div-advance-text_00a185-c2 undefined text-center text-md-center text-lg-center text-xl-center">
+<h2 id="ive-adv-advance-text_00a185-c2" class="ive-heading-parent undefined ive-advanced-text-inner-wrap ive-adv-advance-text_00a185-c2 ive-lh-xs-30 ive-lh-sm-30 ive-lh-md-30 ive-lh-lg-30 ive-lh-xl-30">Service Title 4</h2>
+</div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorheading --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"align":"wide","className":"vw-free-onepage about-section py-5 mx-3"} -->
+<div class="wp-block-columns alignwide vw-free-onepage about-section py-5 mx-3"><!-- wp:column {"width":"66.66%"} -->
+<div class="wp-block-column" style="flex-basis: 66.66%;"><!-- wp:ive/ibtana-visual-editorheading {"headContent":"About Us","level":3,"uniqueID":"_ebc4ee-08","deskalign":"start","tabalign":"start","mobalign":"start","color":"#4f4f4f","typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"600","fontWeight":"600","deskfontSize":20,"mobfontSize":20,"paddingbottomdesk":"15","paddingbottomtablet":"15","paddingbottommob":"15"} -->
+<div class="wp-block-ive-ibtana-visual-editorheading">
+<div class="ive-advanced-text-wrap ive-div-advance-text_ebc4ee-08 undefined text-start text-md-start text-lg-start text-xl-start">
+<h3 id="ive-adv-advance-text_ebc4ee-08" class="ive-heading-parent undefined ive-advanced-text-inner-wrap ive-adv-advance-text_ebc4ee-08 ive-lh-xs-30 ive-lh-sm-30 ive-lh-md-30 ive-lh-lg-30 ive-lh-xl-30">About Us</h3>
+</div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorheading -->
+
+<!-- wp:ive/ibtana-visual-editorheading {"headContent":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur","level":7,"uniqueID":"_9c179a-86","deskalign":"start","tabalign":"start","mobalign":"start","color":"#4f4f4f","letterSpacing":0,"typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"regular","deskfontSize":12,"tabfontSize":12,"mobfontSize":12} -->
+<div class="wp-block-ive-ibtana-visual-editorheading">
+<div class="ive-advanced-text-wrap ive-div-advance-text_9c179a-86 undefined text-start text-md-start text-lg-start text-xl-start">
+<p id="ive-adv-advance-text_9c179a-86" class="ive-heading-parent undefined ive-advanced-text-inner-wrap ive-adv-advance-text_9c179a-86 ive-lh-xs-30 ive-lh-sm-30 ive-lh-md-30 ive-lh-lg-30 ive-lh-xl-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+</div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorheading -->
+
+<!-- wp:ive/ibtana-visual-editorheading {"headContent":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","level":7,"uniqueID":"_069e2e-d7","deskalign":"start","tabalign":"start","mobalign":"start","color":"#4f4f4f","letterSpacing":0,"typography":"Poppins","googleFont":true,"fontSubset":"latin","fontVariant":"regular","deskfontSize":12,"tabfontSize":12,"mobfontSize":12} -->
+<div class="wp-block-ive-ibtana-visual-editorheading">
+<div class="ive-advanced-text-wrap ive-div-advance-text_069e2e-d7 undefined text-start text-md-start text-lg-start text-xl-start">
+<p id="ive-adv-advance-text_069e2e-d7" class="ive-heading-parent undefined ive-advanced-text-inner-wrap ive-adv-advance-text_069e2e-d7 ive-lh-xs-30 ive-lh-sm-30 ive-lh-md-30 ive-lh-lg-30 ive-lh-xl-30">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</div>
+<!-- /wp:ive/ibtana-visual-editorheading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"33.33%"} -->
+<div class="wp-block-column" style="flex-basis: 33.33%;"><!-- wp:image {"id":4921,"width":294,"height":180,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized"><img class="wp-image-4921" style="width: 294px; height: 180px;" src="https://vwthemesdemo.com/ibtana_json/free_theme/vw_one_page/about.png" alt="" width="294" height="180" /></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
