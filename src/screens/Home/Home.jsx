@@ -68,7 +68,7 @@ const Home = () => {
                             <div className="services-text">
                                 <h2>Our Services</h2>
                                 <p>
-                                    At La Maison de la Jouvence, we are dedicated to providing a comprehensive range of services to cater to the diverse needs of our residents. Our services extend beyond basic care to ensure a fulfilling retirement experience. From well-balanced and delicious meals prepared with utmost care to regular medical check-ups and assistance with daily activities, we prioritize the health and comfort of our residents. Our recreational programs offer opportunities for social engagement and personal growth, including arts and crafts, exercise classes, and outings to explore the scenic surroundings. We also offer personalized care plans, ensuring that each resident receives the attention and support they deserve. With our commitment to compassion, quality, and inclusivity, we strive to create an environment where our residents can thrive and make the most of their retirement years.
+                                    At La Maison de la Jouvence, we are dedicated to providing a comprehensive range of services to cater to the diverse needs of our residents. Our services extend beyond basic care to ensure a fulfilling retirement experience. From well-balanced and delicious meals prepared with utmost care to regular medical check-ups and assistance with daily activities, we prioritize the health and comfort of our residents.
                                 </p>
                             </div>
                             <div className="services-image">
@@ -85,7 +85,7 @@ const Home = () => {
                             <div className="goals services-text">
                                 <h2>Our Environment</h2>
                                 <p>
-                                At La Maison de la Jouvence, our retirement home provides a serene and nurturing environment for our residents. Nestled in the coastal town of Hammamet, Tunisia, our idyllic location offers a tranquil atmosphere and a delightful climate, creating the perfect backdrop for a fulfilling retirement experience. Our commitment to creating a warm and family-like setting ensures that our residents feel right at home, surrounded by natural beauty and a caring community. With a focus on both physical and emotional well-being, our dedicated team provides quality care, engaging activities, and a comfortable living space, making every day a memorable and enjoyable one for our cherished residents.
+                                At La Maison de la Jouvence, our retirement home provides a serene and nurturing environment for our residents. Nestled in the coastal town of Hammamet, Tunisia, our idyllic location offers a tranquil atmosphere and a delightful climate, creating the perfect backdrop for a fulfilling retirement experience. Our commitment to creating a warm and family-like setting ensures that our residents feel right at home, surrounded by natural beauty and a caring community. 
                                 </p>
                             </div>
                             
